@@ -1,0 +1,58 @@
+#O que precisa fazer:
+# Criar as demandas
+# pegar w_min, w_max da dani #C:\Users\T-Gamer\Dropbox\LAC\Relatório Final\Lynx-CurtoPrazo_final.docx
+# pegar volume inicial
+# leandro pegando a curva colina de Fundao, caso de certo lembrar de pegar apenas para a hl
+# talvez tirar o turbinado da função objetivo, para ver o que acontece. A função objetivo pode não fazer sentido agora!!
+# modificar o balanço hidrico para conseguir rodar o modelo com 2 rios + desvio de JORDAO
+# arrumar a vazão incremental para saber o que fazer com JORDAO
+# Rodar o código para t=5, para ver o que acontece.
+##OBSERVAÇÕES GERAIS:
+    #Preciso entender como a ONS lida com as usinas Jordao, segredo e S. santiago e saber como lidar com os rios Jordão e Iguaçu (não podemos secar o Jordão)
+    #lINKS INTERESSANTES:
+    #https://www.google.com/search?client=opera-gx&q=Como+funciona+o+reservatorio+de+jordão&sourceid=opera&ie=UTF-8&oe=UTF-8
+        #pesquisa no google mesmo
+    #https://www.copel.com/hpcweb/copel-geracao/usina-derivacao-do-rio-jordao/
+        #descrição no site da COPEL sobre a usina Usina Derivação do Rio Jordão (Jordão)
+    #https://www.copel.com/mhbweb/paginas/bacia-iguacu.jsf
+        #monitoramento de dados da Copel para todas as usinas presente no artigo
+    #http://www.ons.org.br/%2FMPO%2FDocumento%20Normativo%2F3.%20Instruções%20de%20Operação%20-%20SM%205.12%2F3.6.%20Operação%20de%20Reservatórios%2FIO-OR.PR.IGU_Rev.32.pdf
+	#Se não funcionar o link: https://www.google.com/search?client=opera-gx&q=Controle+dos+Reservatórios+da+Região+Hidrográfica+do+Paraná+-+Bacia+do+Rio+Iguaçu&sourceid=opera&ie=UTF-8&oe=UTF-8
+        #instruções normativas da ONS para bacia do Rio iguaçu
+    #COMENTÁRIOS E DECISÕES:
+    #5.4.6 descreve que
+        #Sta Clara, fundão e Jorão não controlam seu vertimento, pois são de soleira livre sem comporteira,
+        #logo: if vazão afluente <= turbinamento max então turbinado ∈ [0,turb max], vertimento = 0.
+            #verificação de volume aqui também, se a água armazenada chegar no max então turb = turb_max; vertetimento > 0
+    #Descrição da Derivação do Rio Jordão
+        #Vazão Ecológica aparemente é 10 m3/s #veio da descrição, q+s >= 10
+    #Imagem com o começo da tabela para transferência de vazão apresentada pelo Leando na página 97, está na página 13
+        #https://hydrobyte.com.br/site/sites/default/files/public_download/Manual-HydroExpert-Desv.pdf
+        #criei conta no hydrobyte para ter acesso a essa tabela de valores
+        #uma aproximação aceitavel (a vista) é vazão transferida = 72*sqrt(diferença positiva de altura montante), que transforma [m] em [m3/s]
+##INFORMAÇÕES DO DESSEM/DECOMP/NEWAVE
+    #NEWAVE e DECOMP:
+        #confhd.dat -> informações de quais usinas estão a jusante #AINDA NÃO IMPLEMENTADO
+        #hidr.dat -> hidr.jl pega as informações gerais das usinas que são necessárias para o modelo (ex: pol. jusante)
+    #DESSEM:
+        #entdados.dat -> Entrada_dados.jl pega as informações de "tempo_viagem.csv" e "demanda_sub_h.csv" com a demanda por subsistema de forma horária
+            #demanda_h.jl ⊂ Entrada_dados.jl
+        #deflant.dat -> deflu_h.jl pega as informações de DEFLUENCIAS ANTERIORES AO INICIO DO ESTUDO
+        #ManualMetodologia contém informações matemáticas do modelo, como foi modelado por ex
+    #ONS:
+        #aflu_h.jl lê o arquivo Dados/Dados_hidro_ONS.csv, retirado do site da ONS com os dados de afluência
+            #a discretização dessa vazão é diária para os últimos 5 anos, vou utilizar esse arquivo para obter algumas funções de vazão afluênte
+                #a princípio penso em utilizar um modelo de média móvel
+                #outra função seria pegando o max, min e média desses dados e construindo uma função
+                    #com o mesmo shape da demanda mas com esse min,max e média das vazões históricas
+                #outra seria pegando o min, max e média e criando uma função randomica mas respeitando esses limites
+##TEMPO DE VIAGEM
+    #Todas as usinas vão começar a programação na mesma hora
+    #f(t,i) = x <= t_viag[i]  ? y[t] : a[t-t_viag[i]]         ;1 ≤ t ≤ (temp + t_viag)
+    #Analizando os relatórios do DESSEM e do SIMHIDR para ver se encontro como eles lidam com tempo de viagem
+        #Página com alguns relatórios
+            #http://srvlumis02.cepel.br/pt_br/sala-de-imprensa/noticias/documentacao-tecnica-das-metodologias-e-modelos-de-otimizacao-energetica-do-cepel.htm
+        #Rleatórios importantes:
+            #Dessem_ManualMetodologia contém as informações do modelo dessem e na página 30/31 contém um comentário de como trata a viagem da água (utiliza dados do SIMHIDR)
+            #Rel 1006_11 contém a descrição de como o DESSEM-PAT e o SIMHIDR tratam o tempo de viagem
+        #DEFLANT.dat contém as informações de defluência das usinas antes do período desejado
