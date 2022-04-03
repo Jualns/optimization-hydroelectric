@@ -1,0 +1,6 @@
+&   PONTO DE OPERCAO
+&TOPER TPELEM ID  TP.VAR DI HI M DF HF M  VALORVAR 
+&TOPER xxxxxx xxx xxxxxx xx xx x xx xx x xxxxxxxxxx
+PTOPER USIT    86 GERA    1  0 0 F             0.00
+PTOPER USIT    15 GERA    1  0 0 F             0.00
+PTOPER USIT   224 GERA    1  0 0 F               0.

@@ -1,0 +1,43 @@
+&===========================================================================
+&Usinas com tempo de viagem
+& 
+&       Mnem    Ind Num
+&XXXXX  XXXXXXX XXX XXX
+MAPFCF  TVIAG     1 156
+MAPFCF  TVIAG     2 162
+& 
+&===========================================================================
+&Subsistemas com usinas termicas a GNL na FCF
+& 
+&       Mnem   Ind Num Nlag Npat
+&XXXXX  XXXXXX XXX XXX XXX XXX
+MAPFCF  SISGNL   1   1   2   3
+MAPFCF  SISGNL   2   3   2   3
+& 
+&===========================================================================
+&Duracoes dos patamares de carga para os periodos futuros na FCF
+& 
+&       Mnem   Lag Pat    Dur (h)
+&XXXXX  XXXXXX XXX XXX  XXXXXXXXXX
+MAPFCF  DURPAT   2   1      259.18
+MAPFCF  DURPAT   2   2      143.32
+MAPFCF  DURPAT   2   3      327.99
+MAPFCF  DURPAT   2   1      259.18
+MAPFCF  DURPAT   2   2      143.32
+MAPFCF  DURPAT   2   3      327.99
+& 
+&===========================================================================
+& Abatimentos futuros na FCF (GNL)
+& 
+&      TpEnt IdEnt IdVar lag Pat    Valor        Justificativa
+XXXXXX XXXXXX XXX XXXXXX XXX XXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FCFFIX USIT    86 GTERF    2   1       0.00 Usina termica GNL.                                                                                  
+FCFFIX USIT    86 GTERF    2   2       9.59 Usina termica GNL.                                                                                  
+FCFFIX USIT    86 GTERF    2   3      20.96 Usina termica GNL.                                                                                  
+FCFFIX USIT    15 GTERF    2   1     204.00 Usina termica GNL.                                                                                  
+FCFFIX USIT    15 GTERF    2   2     204.00 Usina termica GNL.                                                                                  
+FCFFIX USIT    15 GTERF    2   3     204.00 Usina termica GNL.                                                                                  
+FCFFIX USIT   224 GTERF    2   1       0.00 Usina termica GNL.                                                                                  
+FCFFIX USIT   224 GTERF    2   2       0.00 Usina termica GNL.                                                                                  
+FCFFIX USIT   224 GTERF    2   3       0.00 Usina termica GNL.                                                                                  
+&

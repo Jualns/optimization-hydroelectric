@@ -1,0 +1,2240 @@
+& CADASTRO DAS USINAS/UNIDADES TERMICAS
+& 
+& CARACTERISTICAS DAS USINAS TERMICAS
+& 
+&ADUSIT  us     nome     ss yyyy mm dd hr mh nunid
+&ADUSIT XXX XXXXXXXXXXXX XX XXXX XX XX XX X   XX
+CADUSIT   1 ANGRA 1       1 1985 01 01 00 0    1
+CADUSIT   4 ST.CRUZ 34    1 1973 01 01 00 0    2
+CADUSIT   9 R.SILVEIRA    1 1977 07 16 00 0    2
+CADUSIT  12 CUIABA G CC   1 1999 04 06 00 0    3
+CADUSIT  13 ANGRA 2       1 2001 02 01 00 0    1
+CADUSIT  15 LINHARES      1 2010 12 23 00 0    4
+CADUSIT  21 MARANHAO V    4 2013 04 12 00 0    1
+CADUSIT  24 J.LACERDA C   2 1997 02 01 00 0    1
+CADUSIT  25 J.LACERDA B   2 1979 02 01 00 0    2
+CADUSIT  26 J.LACERDA A1  2 1965 03 01 00 0    2
+CADUSIT  27 J.LACERDA A2  2 1973 04 01 00 0    2
+CADUSIT  28 FIGUEIRA      2 1963 04 30 00 0    2
+CADUSIT  35 URUGUAIANA    2 2000 12 13 00 0    3
+CADUSIT  36 MARANHAO IV   4 2013 02 01 00 0    1
+CADUSIT  42 FORTALEZA     3 2003 12 27 00 0    3
+CADUSIT  43 TERMOBAHIA    3 2004 02 09 00 0    1
+CADUSIT  46 N.VENECIA 2   4 2013 10 23 00 0    1
+CADUSIT  47 TERMORIO      1 2014 05 01 00 0   31
+CADUSIT  48 ARAUCARIA     2 2006 10 04 00 0    3
+CADUSIT  49 VIANA         1 2010 01 06 00 0    4
+CADUSIT  50 PIRAT.12 G    1 1954 03 01 00 0    2
+CADUSIT  52 CAMPINA GDE   3 2011 02 08 00 0    4
+CADUSIT  53 GLOBAL I      3 2010 05 07 00 0   11
+CADUSIT  54 JUIZ DE FORA  1 2002 02 02 00 0    2
+CADUSIT  55 GLOBAL II     3 2010 05 20 00 0   11
+CADUSIT  57 MARACANAU I   3 2010 12 30 00 0    8
+CADUSIT  58 TERMOCEARA    3 2002 07 07 00 0    4
+CADUSIT  60 NORTEFLU      1 2004 03 06 00 0    7
+CADUSIT  62 SEROPEDICA    1 2014 05 01 00 0    8
+CADUSIT  63 IBIRITE       1 2002 07 08 00 0    1
+CADUSIT  64 CANOAS        2 2003 02 12 00 0    1
+CADUSIT  67 TERMONE       3 2010 12 24 00 0    3
+CADUSIT  68 TRES LAGOAS   1 2004 01 08 00 0   15
+CADUSIT  69 TERMOPB       3 2011 01 13 00 0    3
+CADUSIT  70 GERAMAR II    4 2010 02 06 00 0    4
+CADUSIT  73 GERAMAR I     4 2010 01 09 00 0    4
+CADUSIT  83 VALE DO ACU   3 2008 09 10 00 0    2
+CADUSIT  86 ST.CRUZ NOVA  1 2012 01 01 00 0    2
+CADUSIT  90 TERMOMACAE    1 2001 12 19 00 0   20
+CADUSIT  96 TERMOPE       3 2004 05 15 00 0    3
+CADUSIT  97 CUBATAO       1 2014 05 01 00 0    3
+CADUSIT  98 PERNAMBU_III  3 2013 12 05 00 0    4
+CADUSIT 106 ERB CANDEIAS  3 2020 12 23 00 0    1
+CADUSIT 107 PAMPA SUL     2 2019 06 28 00 0    1
+CADUSIT 108 XAVANTES      1 2008 01 01 00 0    2
+CADUSIT 109 ALTOS         3 2008 01 01 00 0    1
+CADUSIT 110 N.PIRATININ   1 2012 03 01 00 0   15
+CADUSIT 111 ARACATI       3 2008 01 01 00 0    1
+CADUSIT 112 BAHIA I       3 2010 07 01 00 0    3
+CADUSIT 113 BATURITE      3 2008 01 01 00 0    1
+CADUSIT 116 PARNAIBA IV   4 2013 12 13 00 0    1
+CADUSIT 117 CAMPO MAIOR   3 2008 01 01 00 0    1
+CADUSIT 119 CAUCAIA       3 2008 01 01 00 0    1
+CADUSIT 121 CRATO         3 2008 01 01 00 0    1
+CADUSIT 125 ENGUIA PECEM  3 2008 01 01 00 0    1
+CADUSIT 127 IGUATU        3 2008 01 01 00 0    1
+CADUSIT 133 JUAZEIRO N    3 2008 01 01 00 0    1
+CADUSIT 135 MARAMBAIA     3 2008 01 01 00 0    1
+CADUSIT 138 NAZARIA       3 2008 01 01 00 0    1
+CADUSIT 140 MAUA 3        4 2017 09 19 00 0    3
+CADUSIT 144 PETROLINA     3 2009 01 01 00 0    8
+CADUSIT 146 STA VITORIA   1 2020 01 01 00 0    1
+CADUSIT 147 PROSPERIDADE  3 2018 10 15 00 0    3
+CADUSIT 149 SAO SEPE      2 2018 06 01 00 0    1
+CADUSIT 151 POTIGUAR      3 2009 03 03 00 0    4
+CADUSIT 152 TERMOCABO     3 2010 01 01 00 0    3
+CADUSIT 153 DAIA          1 2008 01 01 00 0    3
+CADUSIT 155 GOIANIA II    1 2009 01 17 00 0    2
+CADUSIT 156 CANDIOTA 3    2 2011 01 01 00 0    1
+CADUSIT 159 TERMOMANAUS   3 2009 06 18 00 0   12
+CADUSIT 160 PAU FERRO I   3 2009 06 18 00 0    7
+CADUSIT 161 POTIGUAR III  3 2009 03 03 00 0    6
+CADUSIT 163 P. PECEM II   3 2013 10 18 00 0    1
+CADUSIT 164 MURICY        3 2009 09 30 00 0    8
+CADUSIT 166 CAMACARI PI   3 2010 03 30 00 0    4
+CADUSIT 167 P. PECEM I    3 2012 12 01 00 0    2
+CADUSIT 169 CISFRAMA      2 2009 01 01 00 0    1
+CADUSIT 170 SUAPE II      3 2013 01 24 00 0   17
+CADUSIT 176 PORTO ITAQUI  4 2013 02 05 00 0    1
+CADUSIT 182 PALMEIRAS GO  1 2012 07 17 00 0    2
+CADUSIT 194 T.NORTE 2     1 2009 11 01 00 0    4
+CADUSIT 201 APARECIDA     4 2013 07 09 00 0    4
+CADUSIT 203 C. ROCHA      4 2013 07 09 00 0    5
+CADUSIT 204 JARAQUI       4 2013 07 09 00 0    2
+CADUSIT 205 MANAUARA      4 2013 07 09 00 0    4
+CADUSIT 207 PONTA NEGRA   4 2013 07 09 00 0    4
+CADUSIT 209 TAMBAQUI      4 2013 07 09 00 0    3
+CADUSIT 211 BAIXADA FLU   1 2014 03 01 00 0    3
+CADUSIT 212 MARANHAO III  4 2016 07 01 00 0    1
+CADUSIT 221 SYKUE I       3 2016 01 01 00 0    1
+CADUSIT 224 P. SERGIPE I  3 2020 01 01 00 0    7
+CADUSIT 229 ONCA PINTADA  1 2021 04 23 00 0    1
+CADUSIT 383 ATLANTICO     1 2020 06 01 00 0    7
+& 
+&--------------------------------------------------------------------------------------------------------------------------------------------
+& CARACTERISTICAS DAS UNIDADES TERMICAS EQUIVALENTES DE CADA USINA
+& 
+&ADUNIDT  us un yyyy mm dd hr mh     Pot        PotMin    On    Of      CCold       CHot       CSTD       RUp     RDown   F No Equ Rampa tran
+&ADUNIDT XXX XX XXXX xx XX XX X  XXXXXXXXXX XXXXXXXXXX XXXXX XXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX  XXXXXXXXX X XX XXX XXXXXXXXXX
+& UTE ANGRA I
+CADUNIDT   1  1 2021 05 01 00 0     640.000    520.000   168   168                                                             
+& UTE SANTA CRUZ 34                                                                                                      
+CADUNIDT   4  3 2021 05 01 00 0     218.000      1.000     0     0                                                       
+CADUNIDT   4  4 2021 05 01 00 0     218.000      1.000     0     0 
+& UTE CAMPOS (R. SILVEIRA)                                                                                               
+CADUNIDT   9  1 2021 05 01 00 0      13.000      8.000     4     6                                                       
+CADUNIDT   9  2 2021 05 01 00 0      12.000      8.000     4     6       
+& UTE CUIABA                                                                                                             
+CADUNIDT  12  1 2021 05 01 00 0     245.000    145.000    72    24                                                               1
+CADUNIDT  12  2 2021 05 01 00 0     245.000    145.000    72    24                                                               1
+CADUNIDT  12  3 2021 05 01 00 0     490.000    310.000    72    24                                                               1
+& UTE ANGRA II                                                                                                           
+CADUNIDT  13  1 2021 05 01 00 0    1350.000   1080.000   168   168   
+& UTE LINHARES                                                                                                           
+CADUNIDT  15  1 2021 05 01 00 0      51.000     25.000   168   168                                                       
+CADUNIDT  15  2 2021 05 01 00 0      51.000     25.000   168   168                                                       
+CADUNIDT  15  3 2021 05 01 00 0      51.000     25.000   168   168                                                       
+CADUNIDT  15  4 2021 05 01 00 0      51.000     25.000   168   168                                                       
+& UTE MARANHAO V                                                      
+CADUNIDT  21  1 2021 05 01 00 0     337.600    200.000   120    48                                                               1
+& UTE JORGE LACERDA C                                                                                                    
+CADUNIDT  24  7 2021 05 01 00 0     363.000    180.000   216    80 
+& UTE JORGE LACERDA B                                                                                                    
+CADUNIDT  25  5 2021 05 01 00 0     131.000     80.000   216    80                                                       
+CADUNIDT  25  6 2021 05 01 00 0     131.000     80.000   216    80         
+& UTE JORGE LACERDA A1                                                                                                   
+CADUNIDT  26  1 2021 05 01 00 0      50.000     35.000   216    80                                                       
+CADUNIDT  26  2 2021 05 01 00 0      50.000     35.000   216    80                                                       
+& UTE JORGE LACERDA A2                                                                                                   
+CADUNIDT  27  3 2021 05 01 00 0      66.000     35.000   216    80                                                       
+CADUNIDT  27  4 2021 05 01 00 0      66.000     35.000   216    80                                                       
+& UTE FIGUEIRA                                                                                                           
+CADUNIDT  28  1 2021 05 01 00 0      10.000      6.000     6     6                                                       
+CADUNIDT  28  3 2021 05 01 00 0      10.000      6.000     6     6  
+& UTE URUGUAIANA                                                                                                         
+CADUNIDT  35  1 2021 05 01 00 0     250.000    180.000   168     0                                      70.000     90.000        1    
+CADUNIDT  35  2 2021 05 01 00 0     250.000    180.000   168     0                                      70.000     90.000        1    
+CADUNIDT  35  3 2021 05 01 00 0     500.000    360.000   168     0                                     100.000    220.000        1     
+& UTE MARANHAO IV                                                       
+CADUNIDT  36  1 2021 05 01 00 0     337.600    200.000   120    48                                                               1                                                   
+& UTE FORTALEZA                                                                                                          
+CADUNIDT  42  1 2021 05 01 00 0     160.000    150.000    96    24                                                               1
+CADUNIDT  42  2 2021 05 01 00 0     160.000    150.000    96    24                                                               1
+CADUNIDT  42  3 2021 05 01 00 0     327.000    260.000    96    24                                                               1
+& UTE CELSO FURTADO (TERMOBAHIA)                                                                                                    
+CADUNIDT  43  1 2021 05 01 00 0     185.891    100.000    74    48                                                        
+& UTE NOVA VENECIA II                                                      
+CADUNIDT  46  1 2021 05 01 00 0     178.200    110.000   120    48                                                               1
+& UTE TERMORIO
+CADUNIDT  47  1 2021 05 01 00 0     330.000    270.000    82    48                                                               1                                           
+CADUNIDT  47  2 2021 05 01 00 0     485.000    425.000    82    48                                                               1                                           
+CADUNIDT  47  3 2021 05 01 00 0     485.000    425.000    82    48                                                               1                                           
+CADUNIDT  47  4 2021 05 01 00 0     485.000    425.000    82    48                                                               1                                           
+CADUNIDT  47  5 2021 05 01 00 0     485.000    425.000    82    48                                                               1                                           
+CADUNIDT  47  6 2021 05 01 00 0     640.000    580.000    82    48                                                               1                                           
+CADUNIDT  47  7 2021 05 01 00 0     640.000    580.000    82    48                                                               1                                           
+CADUNIDT  47  8 2021 05 01 00 0     640.000    580.000    82    48                                                               1                                           
+CADUNIDT  47  9 2021 05 01 00 0     640.000    580.000    82    48                                                               1                                           
+CADUNIDT  47 10 2021 05 01 00 0     640.000    580.000    82    48                                                               1                                           
+CADUNIDT  47 11 2021 05 01 00 0     640.000    580.000    82    48                                                               1                                           
+CADUNIDT  47 12 2021 05 01 00 0     795.000    735.000    83    48                                                               1                                           
+CADUNIDT  47 13 2021 05 01 00 0     795.000    735.000    83    48                                                               1                                           
+CADUNIDT  47 14 2021 05 01 00 0     795.000    735.000    83    48                                                               1                                           
+CADUNIDT  47 15 2021 05 01 00 0     795.000    735.000    83    48                                                               1                                           
+CADUNIDT  47 16 2021 05 01 00 0     989.200    890.000    94    48                                                               1                                           
+CADUNIDT  47 17 2021 05 01 00 0     155.000    155.000    82    48                                                               1                                           
+CADUNIDT  47 18 2021 05 01 00 0     155.000    155.000    82    48                                                               1                                           
+CADUNIDT  47 19 2021 05 01 00 0     155.000    155.000    82    48                                                               1                                           
+CADUNIDT  47 20 2021 05 01 00 0     155.000    155.000    82    48                                                               1                                           
+CADUNIDT  47 21 2021 05 01 00 0     310.000    310.000    82    48                                                               1                                           
+CADUNIDT  47 22 2021 05 01 00 0     310.000    310.000    82    48                                                               1                                           
+CADUNIDT  47 23 2021 05 01 00 0     310.000    310.000    82    48                                                               1                                           
+CADUNIDT  47 24 2021 05 01 00 0     310.000    310.000    82    48                                                               1                                           
+CADUNIDT  47 25 2021 05 01 00 0     310.000    310.000    82    48                                                               1                                           
+CADUNIDT  47 26 2021 05 01 00 0     310.000    310.000    82    48                                                               1                                           
+CADUNIDT  47 27 2021 05 01 00 0     465.000    465.000    83    48                                                               1                                           
+CADUNIDT  47 28 2021 05 01 00 0     465.000    465.000    83    48                                                               1                                           
+CADUNIDT  47 29 2021 05 01 00 0     465.000    465.000    83    48                                                               1                                           
+CADUNIDT  47 30 2021 05 01 00 0     465.000    465.000    83    48                                                               1                                           
+CADUNIDT  47 31 2021 05 01 00 0     620.000    620.000    86    48                                                               1                                           
+& UTE ARAUCARIA                                                                                                          
+CADUNIDT  48  1 2021 05 01 00 0     235.000    235.000    72    43                                                               1
+CADUNIDT  48  2 2021 05 01 00 0     235.000    235.000    72    43                                                               1
+CADUNIDT  48  3 2021 05 01 00 0     484.150    315.000    72    43                                                               1                                                      1
+& UTE VIANA                                                                                                              
+CADUNIDT  49  3 2021 05 01 00 0      43.650      8.730     6     2                                                               2      8.730          
+CADUNIDT  49  4 2021 05 01 00 0      87.300     52.380     6     2                                                               2      8.730
+CADUNIDT  49  1 2021 05 01 00 0     130.950     96.030     6     2                                                               2      8.730
+CADUNIDT  49  2 2021 05 01 00 0     174.600    139.680     6     2                                                               2      8.730
+& UTE PIRATININGA 12                                                                                                     
+CADUNIDT  50  1 2021 05 01 00 0     100.000      1.000     0     0                                                       
+CADUNIDT  50  2 2021 05 01 00 0     100.000      1.000     0     0                                                      
+& UTE CAMPINA GRANDE  
+CADUNIDT  52  1 2021 05 01 00 0      42.270     31.000     6     3                                      22.000     22.000
+CADUNIDT  52  2 2021 05 01 00 0      42.270     31.000     6     3                                      22.000     22.000
+CADUNIDT  52  3 2021 05 01 00 0      42.270     31.000     6     3                                      22.000     22.000
+CADUNIDT  52  4 2021 05 01 00 0      42.270     31.000     6     3                                      22.000     22.000
+& UTE GLOBAL I                                                                                                           
+CADUNIDT  53  1 2021 05 01 00 0      79.360     60.000     5     5                                                               1     20.000
+CADUNIDT  53  2 2021 05 01 00 0      79.360     60.000     5     5                                                               1     20.000
+CADUNIDT  53  3 2021 05 01 00 0      79.360     60.000     5     5                                                               1     20.000
+CADUNIDT  53  4 2021 05 01 00 0      69.440     60.000     5     5                                                               1     20.000
+CADUNIDT  53  5 2021 05 01 00 0      69.440     60.000     5     5                                                               1     20.000
+CADUNIDT  53  6 2021 05 01 00 0      69.440     60.000     5     5                                                               1     20.000
+CADUNIDT  53  7 2021 05 01 00 0     114.080     79.850     6     5                                      40.000     40.000        1     20.000
+CADUNIDT  53  8 2021 05 01 00 0     114.080     79.850     6     5                                      40.000     40.000        1     20.000
+CADUNIDT  53  9 2021 05 01 00 0     104.160     79.850     6     5                                      40.000     40.000        1     20.000
+CADUNIDT  53 10 2021 05 01 00 0     114.080     79.850     6     5                                      40.000     40.000        1     20.000
+CADUNIDT  53 11 2021 05 01 00 0     148.800    104.160     7     5                                      40.000     40.000        1     20.000
+& UTE JUIZ DE FORA                                                                                                       
+CADUNIDT  54  1 2021 05 01 00 0      43.935     35.000     5     6                                                       
+CADUNIDT  54  2 2021 05 01 00 0      43.113     35.000     5     6                                                       
+& UTE GLOBAL II                                                                                                          
+CADUNIDT  55  1 2021 05 01 00 0      79.360     60.000     5     5                                                               1     20.000
+CADUNIDT  55  2 2021 05 01 00 0      79.360     60.000     5     5                                                               1     20.000
+CADUNIDT  55  3 2021 05 01 00 0      79.360     60.000     5     5                                                               1     20.000
+CADUNIDT  55  4 2021 05 01 00 0      69.440     60.000     5     5                                                               1     20.000
+CADUNIDT  55  5 2021 05 01 00 0      69.440     60.000     5     5                                                               1     20.000
+CADUNIDT  55  6 2021 05 01 00 0      69.440     60.000     5     5                                                               1     20.000
+CADUNIDT  55  7 2021 05 01 00 0     114.080     79.850     6     5                                      40.000     40.000        1     20.000
+CADUNIDT  55  8 2021 05 01 00 0     114.080     79.850     6     5                                      40.000     40.000        1     20.000
+CADUNIDT  55  9 2021 05 01 00 0     104.160     79.850     6     5                                      40.000     40.000        1     20.000
+CADUNIDT  55 10 2021 05 01 00 0     114.080     79.850     6     5                                      40.000     40.000        1     20.000
+CADUNIDT  55 11 2021 05 01 00 0     148.800    104.160     7     5                                      40.000     40.000        1     20.000
+& UTE MARACANAU                                                                                                          
+CADUNIDT  57  1 2021 05 01 00 0      20.500     17.000     6     6                                       6.000      6.000
+CADUNIDT  57  2 2021 05 01 00 0      20.500     17.000     6     6                                       6.000      6.000
+CADUNIDT  57  3 2021 05 01 00 0      20.500     17.000     6     6                                       6.000      6.000
+CADUNIDT  57  4 2021 05 01 00 0      20.500     17.000     6     6                                       6.000      6.000
+CADUNIDT  57  5 2021 05 01 00 0      20.500     17.000     6     6                                       6.000      6.000
+CADUNIDT  57  6 2021 05 01 00 0      20.500     17.000     6     6                                       6.000      6.000
+CADUNIDT  57  7 2021 05 01 00 0      20.500     17.000     6     6                                       6.000      6.000
+CADUNIDT  57  8 2021 05 01 00 0      20.500     17.000     6     6                                       6.000      6.000
+& UTE TERMOCEARA                                                                                                         
+CADUNIDT  58  1 2021 05 01 00 0      52.300     40.000     5     6                                                               2
+CADUNIDT  58  2 2021 05 01 00 0     104.500     80.000     5     6                                                               2
+CADUNIDT  58  3 2021 05 01 00 0     156.750    120.000     5     6                                                               2
+CADUNIDT  58  4 2021 05 01 00 0     209.000    160.000     5     6                                                               2
+& UTE NORTEFLUMINENSE
+CADUNIDT  60  1 2021 05 01 00 0     250.000    190.000   120    48                                                               1
+CADUNIDT  60  2 2021 05 01 00 0     250.000    190.000   120    48                                                               1
+CADUNIDT  60  3 2021 05 01 00 0     250.000    190.000   120    48                                                               1
+CADUNIDT  60  4 2021 05 01 00 0     520.000    390.000   120    48                                     240.000                   1
+CADUNIDT  60  5 2021 05 01 00 0     520.000    390.000   120    48                                     240.000                   1
+CADUNIDT  60  6 2021 05 01 00 0     520.000    390.000   120    48                                     240.000                   1
+CADUNIDT  60  7 2021 05 01 00 0     826.780    600.000   120    48                                     240.000    260.000        1
+& UTE SEROPEDICA                                                                                              
+CADUNIDT  62  1 2021 05 01 00 0      45.000     35.000     5     6                                                               2
+CADUNIDT  62  2 2021 05 01 00 0      90.000     70.000     5     6                                                               2
+CADUNIDT  62  3 2021 05 01 00 0     135.000    105.000     5     6                                                               2
+CADUNIDT  62  4 2021 05 01 00 0     180.000    140.000     5     6                                                               2
+CADUNIDT  62  5 2021 05 01 00 0     225.000    175.000     6     6                                                               2
+CADUNIDT  62  6 2021 05 01 00 0     270.000    210.000     6     6                                                               2
+CADUNIDT  62  7 2021 05 01 00 0     315.000    245.000     6     6                                                               2
+CADUNIDT  62  8 2021 05 01 00 0     360.000    280.000     6     6                                                               2
+& UTE IBIRITE                                                                                                                 
+CADUNIDT  63  1 2021 05 01 00 0     226.000    226.000    83    48                                                               1
+& UTE CANOAS                                                                                                             
+CADUNIDT  64  1 2021 05 01 00 0     248.573    248.573    80    48                                                               1
+& UTE TERMONORDESTE                                                                                                            
+CADUNIDT  67  1 2021 05 01 00 0      49.949     41.000    12     3                                                       
+CADUNIDT  67  2 2021 05 01 00 0      58.274     41.000    12     3                                      24.000           
+CADUNIDT  67  3 2021 05 01 00 0      54.086     41.000    12     3                                      24.000           
+& UTE TRES LAGOAS (LUIZ CARLOS PRESTES)                                                                                              
+CADUNIDT  68  1 2021 05 01 00 0      90.000     90.000    81    48                                                               1                                      
+CADUNIDT  68  2 2021 05 01 00 0      90.000     90.000    81    48                                                               1                                      
+CADUNIDT  68  3 2021 05 01 00 0      90.000     90.000    81    48                                                               1                                      
+CADUNIDT  68  4 2021 05 01 00 0      90.000     90.000    81    48                                                               1                                      
+CADUNIDT  68  5 2021 05 01 00 0     180.000    180.000    85    48                                                               1                                      
+CADUNIDT  68  6 2021 05 01 00 0     180.000    180.000    85    48                                                               1                                      
+CADUNIDT  68  7 2021 05 01 00 0     180.000    180.000    85    48                                                               1                                      
+CADUNIDT  68  8 2021 05 01 00 0     180.000    180.000    85    48                                                               1                                      
+CADUNIDT  68  9 2021 05 01 00 0     180.000    180.000    85    48                                                               1                                      
+CADUNIDT  68 10 2021 05 01 00 0     180.000    180.000    85    48                                                               1                                      
+CADUNIDT  68 11 2021 05 01 00 0     270.000    270.000    88    48                                                               1                                      
+CADUNIDT  68 12 2021 05 01 00 0     270.000    270.000    88    48                                                               1                                      
+CADUNIDT  68 13 2021 05 01 00 0     270.000    270.000    88    48                                                               1                                      
+CADUNIDT  68 14 2021 05 01 00 0     270.000    270.000    88    48                                                               1                                      
+CADUNIDT  68 15 2021 05 01 00 0     350.000    350.000    94    48                                                               1                                                                                       1
+& UTE TERMOPB                                                                                                            
+CADUNIDT  69  1 2021 05 01 00 0      49.949     41.000    12     3                                                       
+CADUNIDT  69  2 2021 05 01 00 0      58.274     41.000    12     3                                      24.000
+CADUNIDT  69  3 2021 05 01 00 0      54.086     41.000    12     3                                      24.000
+& UTE GERAMAR II                                                                                                         
+CADUNIDT  70  1 2021 05 01 00 0      43.600      8.000     5     0                                      24.000     36.000
+CADUNIDT  70  2 2021 05 01 00 0      34.900      8.000     5     0                                      24.000     36.000
+CADUNIDT  70  3 2021 05 01 00 0      43.600      8.000     5     0                                      24.000     36.000
+CADUNIDT  70  4 2021 05 01 00 0      43.600      8.000     5     0                                      24.000     36.000
+& UTE GERAMAR I                                                                                                          
+CADUNIDT  73  1 2021 05 01 00 0      43.600      8.000     5     0                                      24.000     36.000
+CADUNIDT  73  2 2021 05 01 00 0      43.650      8.000     5     0                                      24.000     36.000
+CADUNIDT  73  3 2021 05 01 00 0      43.650      8.000     5     0                                      24.000     36.000
+CADUNIDT  73  4 2021 05 01 00 0      34.900      8.000     5     0                                      24.000     36.000
+& UTE JESUS SOARES PEREIRA (VALE DO ACU)                                                                                              
+CADUNIDT  83  1 2021 05 01 00 0     155.000    110.000    26    48                                                               2
+CADUNIDT  83  2 2021 05 01 00 0     310.000    310.000    26    48                                                               2
+& UTE SANTA CRUZ NOVA                                                                                                    
+CADUNIDT  86 11 2021 05 01 00 0     175.000     60.000    24    24                                                       
+CADUNIDT  86 21 2021 05 01 00 0     175.000     60.000    24    24                                                       
+& UTE TERMOMACAE                                                                                                         
+CADUNIDT  90  1 2021 05 01 00 0      45.000     35.000     5     6                                                               2   
+CADUNIDT  90  2 2021 05 01 00 0      90.000     70.000     5     6                                                               2
+CADUNIDT  90  3 2021 05 01 00 0     135.000    105.000     5     6                                                               2
+CADUNIDT  90  4 2021 05 01 00 0     180.000    140.000     5     6                                                               2
+CADUNIDT  90  5 2021 05 01 00 0     225.000    175.000     5     6                                                               2
+CADUNIDT  90  6 2021 05 01 00 0     270.000    210.000     6     6                                                               2
+CADUNIDT  90  7 2021 05 01 00 0     315.000    245.000     6     6                                                               2
+CADUNIDT  90  8 2021 05 01 00 0     360.000    280.000     6     6                                                               2
+CADUNIDT  90  9 2021 05 01 00 0     405.000    315.000     6     6                                                               2
+CADUNIDT  90 10 2021 05 01 00 0     450.000    350.000     6     6                                                               2
+CADUNIDT  90 11 2021 05 01 00 0     495.000    385.000     6     6                                                               2
+CADUNIDT  90 12 2021 05 01 00 0     540.000    420.000     6     6                                                               2
+CADUNIDT  90 13 2021 05 01 00 0     585.000    455.000     6     6                                                               2
+CADUNIDT  90 14 2021 05 01 00 0     630.000    490.000     6     6                                                               2
+CADUNIDT  90 15 2021 05 01 00 0     675.000    525.000     6     6                                                               2
+CADUNIDT  90 16 2021 05 01 00 0     720.000    560.000     7     6                                                               2
+CADUNIDT  90 17 2021 05 01 00 0     765.000    595.000     7     6                                                               2
+CADUNIDT  90 18 2021 05 01 00 0     810.000    630.000     7     6                                                               2
+CADUNIDT  90 19 2021 05 01 00 0     855.000    665.000     7     6                                                               2
+CADUNIDT  90 20 2021 05 01 00 0     900.000    700.000     7     6                                                               2
+& UTE TERMOPE                                                                                    
+CADUNIDT  96  1 2021 05 01 00 0     257.000    247.000   132    36                                       5.000      5.000        1
+CADUNIDT  96  2 2021 05 01 00 0     257.000    247.000   132    36                                       5.000      5.000        1
+CADUNIDT  96  3 2021 05 01 00 0     533.000    509.000   132    36                                       8.000      8.000        1
+& UTE CUBATAO                                                                                                               
+CADUNIDT  97  1 2021 05 01 00 0     216.000    110.000    84    48                                                               1                                                                      
+CADUNIDT  97  2 2021 05 01 00 0      48.000     25.000    84    48                                                               1                                                                      
+CADUNIDT  97  3 2021 05 01 00 0     168.000     85.000    84    48                                                               1                                                                      
+& UTE PERNAMBUCO III                                                                                                     
+CADUNIDT  98  1 2021 05 01 00 0      52.380     36.000     3     8                                                       
+CADUNIDT  98  2 2021 05 01 00 0      52.380     36.000     3     8                                                       
+CADUNIDT  98  3 2021 05 01 00 0      52.380     36.000     3     8                                                       
+CADUNIDT  98  4 2021 05 01 00 0      43.600     30.000     3     8   
+& UTE ERB CANDEIAS
+CADUNIDT 106  1 2021 05 01 00 0      16.790      4.000    24    24                                       2.000      2.000
+& UTE PAMPA SUL
+CADUNIDT 107  1 2021 05 01 00 0     345.000    175.000    24    24   
+& UTE XAVANTES                                                                                                           
+CADUNIDT 108  1 2021 05 01 00 0      26.064     18.000     1     1
+CADUNIDT 108  2 2021 05 01 00 0      27.512     18.000     1     1
+& UTE ALTOS                                                                                                              
+CADUNIDT 109  1 2021 05 01 00 0      13.100      4.000     0     0                                                      
+& UTE NOVA PIRATININGA 
+CADUNIDT 110  1 2021 05 01 00 0     140.000    140.000   168    48                                                               1                                                             
+CADUNIDT 110  2 2021 05 01 00 0     140.000    140.000   168    48                                                               1                                                              
+CADUNIDT 110  3 2021 05 01 00 0     140.000    140.000   168    48                                                               1                                                               
+CADUNIDT 110  4 2021 05 01 00 0     140.000    140.000   168    48                                                               1                                                              
+CADUNIDT 110  5 2021 05 01 00 0     280.000    280.000   168    48                                                               1                                                                 
+CADUNIDT 110  6 2021 05 01 00 0     280.000    280.000   168    48                                                               1                                                              
+CADUNIDT 110  7 2021 05 01 00 0     280.000    280.000   168    48                                                               1                                                              
+CADUNIDT 110  8 2021 05 01 00 0     280.000    280.000   168    48                                                               1                                                              
+CADUNIDT 110  9 2021 05 01 00 0     280.000    280.000   168    48                                                               1                                                              
+CADUNIDT 110 10 2021 05 01 00 0     280.000    280.000   168    48                                                               1                                                              
+CADUNIDT 110 11 2021 05 01 00 0     420.000    420.000   168    48                                                               1                                                              
+CADUNIDT 110 12 2021 05 01 00 0     420.000    420.000   168    48                                                               1                                                              
+CADUNIDT 110 13 2021 05 01 00 0     420.000    420.000   168    48                                                               1                                                              
+CADUNIDT 110 14 2021 05 01 00 0     420.000    420.000   168    48                                                               1                                                              
+CADUNIDT 110 15 2021 05 01 00 0     554.939    554.939   168    48                                                               1                                                                                                                          
+& UTE ARACATI                                                                                                            
+CADUNIDT 111  1 2021 05 01 00 0      11.500      4.000     0     0                                                       
+& UTE BAHIA I                                                                                                                    
+CADUNIDT 112  1 2021 05 01 00 0       8.400      7.000     5     6                                                               2
+CADUNIDT 112  2 2021 05 01 00 0      16.800     14.000     5     6                                                               2
+CADUNIDT 112  3 2021 05 01 00 0      27.000     21.000     6     6                                                               2
+& UTE BATURITE                                                                                                           
+CADUNIDT 113  1 2021 05 01 00 0      11.500      8.000     0     0                                                       
+& UTE PARNAIBA IV                                                                                                                        
+CADUNIDT 116  1 2021 05 01 00 0      56.300     51.000   120    48                                                               1                                                                               
+& UTE CAMPO MAIOR                                                                                                        
+CADUNIDT 117  1 2021 05 01 00 0      13.100      6.000     0     0                                                       
+& UTE CAUCAIA                                                                                                            
+CADUNIDT 119  1 2021 05 01 00 0      14.800      6.000     0     0                                                       
+& UTE CRATO                                                                                                              
+CADUNIDT 121  1 2021 05 01 00 0      13.100      6.000     0     0                                                       
+& UTE ENGUIA PECEM                                                                                                       
+CADUNIDT 125  1 2021 05 01 00 0      14.800      6.000     0     0                                                       
+& UTE IGUATU                                                                                                             
+CADUNIDT 127  1 2021 05 01 00 0      14.800      8.000     0     0                                                       
+& UTE JUAZEIRO N                                                                                                         
+CADUNIDT 133  1 2021 05 01 00 0      14.800      8.000     0     0                                                       
+& UTE MARAMBAIA                                                                                                          
+CADUNIDT 135  1 2021 05 01 00 0      13.100      8.000     0     0                                                       
+& UTE NAZARIA                                                                                                            
+CADUNIDT 138  1 2021 05 01 00 0      13.100      8.000     0     0 
+& UTE MAUA 3                                                   
+CADUNIDT 140  1 2021 05 01 00 0     583.000    379.100    48     0                                     360.000    360.000        1    105.000
+CADUNIDT 140  2 2021 05 01 00 0     276.000    120.000    48     0                                     240.000    240.000        1    105.000
+CADUNIDT 140  3 2021 05 01 00 0     276.000    120.000    48     0                                     240.000    240.000        1    105.000
+& UTE PETROLINA                                                                                                          
+CADUNIDT 144  1 2021 05 01 00 0      16.500     15.200     8    12                                                               2
+CADUNIDT 144  2 2021 05 01 00 0      33.000     30.400     8    12                                                               2
+CADUNIDT 144  3 2021 05 01 00 0      49.500     45.600     8    12                                                               2
+CADUNIDT 144  4 2021 05 01 00 0      66.000     60.800     8    12                                                               2
+CADUNIDT 144  5 2021 05 01 00 0      82.500     76.000     8    12                                                               2
+CADUNIDT 144  6 2021 05 01 00 0      99.000     91.200     8    12                                                               2
+CADUNIDT 144  7 2021 05 01 00 0     115.500    106.400     8    12                                                               2
+CADUNIDT 144  8 2021 05 01 00 0     132.000    121.600     8    12                                                               2
+& UTE STA VITORIA
+CADUNIDT 146  1 2021 05 01 00 0      41.400     13.000    24    24                                      10.000     10.000
+& UTE PROSPERIDADE I                                                                                                     
+CADUNIDT 147  1 2021 05 01 00 0       9.341      4.600     2     2                                       9.200      9.200
+CADUNIDT 147  2 2021 05 01 00 0       9.341      4.600     2     2                                       9.200      9.200
+CADUNIDT 147  3 2021 05 01 00 0       9.341      4.600     2     2                                       9.200      9.200
+& UTE SAO SEPE
+CADUNIDT 149  1 2021 05 01 00 0       8.000      1.600     0     0  
+& UTE POTIGUAR                                                                                                           
+CADUNIDT 151  1 2021 05 01 00 0      13.300      5.000     4     1                                                       
+CADUNIDT 151  2 2021 05 01 00 0      13.300      5.000     4     1                                                       
+CADUNIDT 151  3 2021 05 01 00 0      13.300      5.000     4     1                                                       
+CADUNIDT 151  4 2021 05 01 00 0      13.300      5.000     4     1                                                       
+& UTE TERMOCABO                                                                                                          
+CADUNIDT 152  1 2021 05 01 00 0      16.500     16.500     6    12                                                               2
+CADUNIDT 152  2 2021 05 01 00 0      33.000     33.000     6    12                                                               2
+CADUNIDT 152  3 2021 05 01 00 0      49.000     49.000     6    12                                                               2
+& UTE DAIA                                                                                                               
+CADUNIDT 153  1 2021 05 01 00 0      22.100      2.800     1     1                                                       
+CADUNIDT 153  2 2021 05 01 00 0      22.340      2.800     1     1                                                       
+CADUNIDT 153  3 2021 05 01 00 0       1.600      0.200     1     1                                       0.400      0.400
+& UTE GOIANIA II 
+&FCmax alterado para 0,97 conforme DESPACHO N 3.250, DE 17 DE NOVEMBRO DE 2020
+CADUNIDT 155  1 2021 05 01 00 0      68.060     30.000     8     8
+CADUNIDT 155  2 2021 05 01 00 0      68.060     30.000     8     8
+& UTE CANDIOTA                                                                                                           
+CADUNIDT 156  1 2021 05 01 00 0     350.000    210.000   168   168                                      60.000    120.000
+& UTE TERMOMANAUS                                                                                                        
+CADUNIDT 159  1 2021 05 01 00 0       6.240      3.120     3     1                                                       
+CADUNIDT 159  2 2021 05 01 00 0      13.920      6.960     3     1                                                       
+CADUNIDT 159  3 2021 05 01 00 0      12.480      6.240     3     1                                                       
+CADUNIDT 159  4 2021 05 01 00 0      13.920      6.960     3     1                                                       
+CADUNIDT 159  5 2021 05 01 00 0      12.480      6.240     3     1                                                       
+CADUNIDT 159  6 2021 05 01 00 0      13.920      6.960     3     1                                                       
+CADUNIDT 159  7 2021 05 01 00 0       4.800      2.400     3     1                                                       
+CADUNIDT 159  8 2021 05 01 00 0      12.480      6.240     3     1                                                       
+CADUNIDT 159  9 2021 05 01 00 0      13.920      6.960     3     1                                                       
+CADUNIDT 159 10 2021 05 01 00 0      12.480      6.240     3     1                                                       
+CADUNIDT 159 11 2021 05 01 00 0      13.920      6.960     3     1                                                       
+CADUNIDT 159 12 2021 05 01 00 0      12.480      6.240     3     1   
+& UTE PAU FERRO                                                                                                          
+CADUNIDT 160  1 2021 05 01 00 0      13.920      6.960     3     1                                                       
+CADUNIDT 160  2 2021 05 01 00 0      12.480      6.240     3     1                                                       
+CADUNIDT 160  3 2021 05 01 00 0      13.920      6.960     3     1                                                       
+CADUNIDT 160  4 2021 05 01 00 0      12.480      6.240     3     1                                                       
+CADUNIDT 160  5 2021 05 01 00 0      13.920      6.960     3     1                                                       
+CADUNIDT 160  6 2021 05 01 00 0      12.480      6.240     3     1                                                       
+CADUNIDT 160  7 2021 05 01 00 0      14.880      7.440     3     1        
+& UTE POTIGUAR III                                                                                                    
+CADUNIDT 161  1 2021 05 01 00 0       9.570      5.000     4     1                                                       
+CADUNIDT 161  2 2021 05 01 00 0       9.570      5.000     4     1                                                       
+CADUNIDT 161  3 2021 05 01 00 0       9.570      5.000     4     1                                                       
+CADUNIDT 161  4 2021 05 01 00 0       8.250      5.000     4     1                                                       
+CADUNIDT 161  5 2021 05 01 00 0       9.570      5.000     4     1                                                       
+CADUNIDT 161  6 2021 05 01 00 0       8.250      5.000     4     1  
+& UTE PORTO PECEM II                                                                                                    
+CADUNIDT 163  1 2021 05 01 00 0     365.000    240.000   168    48                                      84.000     84.000
+& UTE MURICY                                                                                                             
+CADUNIDT 164  1 2021 05 01 00 0      18.000     12.500     5     4                                                               2
+CADUNIDT 164  2 2021 05 01 00 0      36.000     25.000     5     4                                                               2
+CADUNIDT 164  3 2021 05 01 00 0      54.000     37.500     5     4                                                               2
+CADUNIDT 164  4 2021 05 01 00 0      72.000     50.000     5     4                                                               2
+CADUNIDT 164  5 2021 05 01 00 0      90.000     62.500     7     6                                                               2
+CADUNIDT 164  6 2021 05 01 00 0     108.000     75.000     7     6                                                               2
+CADUNIDT 164  7 2021 05 01 00 0     126.000     87.500     7     6                                                               2
+CADUNIDT 164  8 2021 05 01 00 0     147.155    100.000     7     6                                                               2
+& UTE CAMACARI PI (AREMBEPE)                                                                                                     
+CADUNIDT 166  1 2021 05 01 00 0      31.300     26.600     6     4                                                               2
+CADUNIDT 166  2 2021 05 01 00 0      62.600     53.200     7     6                                                               2
+CADUNIDT 166  3 2021 05 01 00 0      93.900     79.800     8     8                                                               2
+CADUNIDT 166  4 2021 05 01 00 0     125.200    106.400     9    10                                                               2
+& UTE PORTO PECEM I                                                                                                      
+CADUNIDT 167  1 2021 05 01 00 0     360.137    240.000   168    48                                      60.000     60.000
+CADUNIDT 167  2 2021 05 01 00 0     360.137    240.000   168    48                                      60.000     60.000
+& UTE CISFRAMA (MADEIRAS)                                                                                                           
+CADUNIDT 169  1 2021 05 01 00 0       4.000      1.000    14     5                                       2.000      2.000
+& UTE PORTO SUAPE II                                                                                                     
+CADUNIDT 170  1 2021 05 01 00 0      22.427     22.427     5     0                                                               2                                             
+CADUNIDT 170  2 2021 05 01 00 0      44.854     44.854     5     0                                                               2
+CADUNIDT 170  3 2021 05 01 00 0      67.281     67.281     6     0                                                               2
+CADUNIDT 170  4 2021 05 01 00 0      89.708     89.708     6     0                                                               2
+CADUNIDT 170  5 2021 05 01 00 0     112.135    112.135     6     0                                                               2
+CADUNIDT 170  6 2021 05 01 00 0     134.562    134.562     6     0                                                               2
+CADUNIDT 170  7 2021 05 01 00 0     156.989    156.989     6     0                                                               2
+CADUNIDT 170  8 2021 05 01 00 0     179.416    179.416     6     0                                                               2
+CADUNIDT 170  9 2021 05 01 00 0     201.843    201.843     6     0                                                               2
+CADUNIDT 170 10 2021 05 01 00 0     224.270    224.270     7     0                                                               2
+CADUNIDT 170 11 2021 05 01 00 0     246.697    246.697     7     0                                                               2
+CADUNIDT 170 12 2021 05 01 00 0     269.124    269.124     7     0                                                               2
+CADUNIDT 170 13 2021 05 01 00 0     291.551    291.551     7     0                                                               2
+CADUNIDT 170 14 2021 05 01 00 0     313.978    313.978     7     0                                                               2
+CADUNIDT 170 15 2021 05 01 00 0     336.405    336.405     7     0                                                               2
+CADUNIDT 170 16 2021 05 01 00 0     358.832    358.832     7     0                                                               2
+CADUNIDT 170 17 2021 05 01 00 0     381.259    381.259     8     0                                                               2
+& UTE PORTO ITAQUI
+CADUNIDT 176  1 2021 05 01 00 0     360.137    240.000   168    48                                      80.000     80.000
+& UTE PALMEIRAS DE GOIAS                                                                                                 
+CADUNIDT 182  1 2021 05 01 00 0      70.580     50.000     5     5                                      20.000     20.000
+CADUNIDT 182  2 2021 05 01 00 0      69.856     49.500     5     5                                      20.000     20.000
+& UTE TERMONORTE II                                                                                                      
+CADUNIDT 194  1 2021 05 01 00 0      73.800     60.000    12    12
+CADUNIDT 194  2 2021 05 01 00 0      73.800     60.000    12    12
+CADUNIDT 194  3 2021 05 01 00 0      73.800     60.000    12    12
+CADUNIDT 194  4 2021 05 01 00 0     118.600     60.000    12    12
+& UTE APARECIDA
+CADUNIDT 201  1 2021 05 01 00 0      43.000     25.000     1     1
+CADUNIDT 201  2 2021 05 01 00 0      43.000     25.000     1     1
+CADUNIDT 201  3 2021 05 01 00 0      40.000     25.000     1     1
+CADUNIDT 201  4 2021 05 01 00 0      40.000     25.000     1     1
+& UTE CRISTIANO ROCHA                                                                                                    
+CADUNIDT 203  1 2021 05 01 00 0      17.076     12.000     4    12                                                       
+CADUNIDT 203  2 2021 05 01 00 0      17.076     12.000     4    12                                                       
+CADUNIDT 203  3 2021 05 01 00 0      17.076     12.000     4    12                                                       
+CADUNIDT 203  4 2021 05 01 00 0      17.076     12.000     4    12                                                       
+CADUNIDT 203  5 2021 05 01 00 0      17.076     12.000     4    12    
+& UTE JARAQUI                                                                                                            
+CADUNIDT 204  6 2021 05 01 00 0      36.080     15.000     7     6                                                       
+CADUNIDT 204  7 2021 05 01 00 0      39.360     15.000     7     6                                                       
+& UTE MANAUARA                                                                                                           
+CADUNIDT 205  1 2021 05 01 00 0      16.700     10.000     9     4                                                       
+CADUNIDT 205  2 2021 05 01 00 0      16.700     10.000     9     4                                                       
+CADUNIDT 205  3 2021 05 01 00 0      16.700     10.000     9     4                                                       
+CADUNIDT 205  4 2021 05 01 00 0      16.700     10.000     9     4                                                       
+& UTE PONTA NEGRA                                                      
+CADUNIDT 207  1 2021 05 01 00 0      16.500     16.000     3     0                                                       
+CADUNIDT 207  2 2021 05 01 00 0      16.500     16.000     3     0                                                       
+CADUNIDT 207  3 2021 05 01 00 0      16.500     16.000     3     0                                                       
+CADUNIDT 207  4 2021 05 01 00 0      16.500     16.000     3     0     
+& UTE TAMBAQUI
+CADUNIDT 209  5 2021 05 01 00 0      17.560     10.000     7     6                                                       
+CADUNIDT 209  6 2021 05 01 00 0      39.360     25.000     7     6                                                       
+CADUNIDT 209  7 2021 05 01 00 0      36.080     25.000     7     6                                                       
+& UTE BAIXADA FLU                                                                                                                                                                                                           
+CADUNIDT 211  1 2021 05 01 00 0     265.000    260.000   168    48                                                               1
+CADUNIDT 211  2 2021 05 01 00 0     265.000    260.000   168    48                                                               1
+CADUNIDT 211  3 2021 05 01 00 0     530.000    520.000   168    48                                                               1
+& UTE MARANHAO III                                                      
+CADUNIDT 212  1 2021 05 01 00 0     518.800    400.000   120    48                                                               1
+& UTE SYKUE                                                                                                              
+CADUNIDT 221  1 2021 05 01 00 0      30.000     18.000   720     0                                          20         20             
+& UTE P. SERGIPE I                                                                                         
+CADUNIDT 224  1 2021 05 01 00 0    1515.640   1515.640   179     0                                                               1
+CADUNIDT 224  2 2021 05 01 00 0    1030.000   1030.000   177     0                                                               1
+CADUNIDT 224  3 2021 05 01 00 0    1030.000   1030.000   177     0                                                               1
+CADUNIDT 224  4 2021 05 01 00 0    1030.000   1030.000   177     0                                                               1
+CADUNIDT 224  5 2021 05 01 00 0     500.000    500.000   175     0                                                               1
+CADUNIDT 224  6 2021 05 01 00 0     500.000    500.000   175     0                                                               1
+CADUNIDT 224  7 2021 05 01 00 0     500.000    500.000   175     0                                                               1
+& UTE ONCA PINTADA
+CADUNIDT 229  1 2021 05 01 00 0      50.000     22.400   412     0                                                       
+& UTE ATLANTICO                                                                                                       
+CADUNIDT 383  1 2021 05 01 00 0      90.000     40.000    24     1                                                               1                                           
+CADUNIDT 383  2 2021 05 01 00 0      90.000     40.000    24     1                                                               1
+CADUNIDT 383  3 2021 05 01 00 0     155.000     40.000    24     1                                                               1
+CADUNIDT 383  4 2021 05 01 00 0     180.000     80.000    24     1                                                               1
+CADUNIDT 383  5 2021 05 01 00 0     295.000     80.000    24     1                                                               1
+CADUNIDT 383  6 2021 05 01 00 0     295.000     80.000    24     1                                                               1
+CADUNIDT 383  7 2021 05 01 00 0     455.700    120.000    24     1                                                               1
+&
+&
+&--------------------------------------------------------------------------------------------------------------------------------------------
+& CONFIGURACOES EQUIVALENTES CICLO COMBINADO E SIMPLES DEPENDENTE
+&
+&ADCONF USI EQU UNI
+&XXXXXX XXX XXX XXX
+& UTE CUIABA  
+CADCONF  12   1   1
+CADCONF  12   1   3
+CADCONF  12   2   2
+CADCONF  12   2   3
+CADCONF  12   3   1
+CADCONF  12   3   2
+CADCONF  12   3   3
+&
+& UTE MARANHAO V
+CADCONF  21   1   1
+CADCONF  21   1   2
+&
+& UTE URUGUAIANA
+CADCONF  35   1   1
+CADCONF  35   1   3
+CADCONF  35   2   2
+CADCONF  35   2   3
+CADCONF  35   3   1
+CADCONF  35   3   2
+CADCONF  35   3   3
+&
+& UTE MARANHAO IV
+CADCONF  36   1   1
+CADCONF  36   1   2
+&
+&UTE FORTALEZA
+CADCONF  42   1   1
+CADCONF  42   1   3
+CADCONF  42   2   2
+CADCONF  42   2   3
+CADCONF  42   3   1
+CADCONF  42   3   2
+CADCONF  42   3   3
+&
+&UTE NOVA VENECIA
+CADCONF  46   1   1
+CADCONF  46   1   2
+&
+&UTE TERMORIO
+CADCONF  47   1   1
+CADCONF  47   1   2
+CADCONF  47   1   3
+&                  
+CADCONF  47   2   1
+CADCONF  47   2   2
+CADCONF  47   2   3
+CADCONF  47   2   4
+CADCONF  47   2   6
+&                  
+CADCONF  47   3   1
+CADCONF  47   3   2
+CADCONF  47   3   3
+CADCONF  47   3   5
+CADCONF  47   3   6
+&                  
+CADCONF  47   4   1
+CADCONF  47   4   2
+CADCONF  47   4   3
+CADCONF  47   4   7
+CADCONF  47   4   9
+&                  
+CADCONF  47   5   1
+CADCONF  47   5   2
+CADCONF  47   5   3
+CADCONF  47   5   8
+CADCONF  47   5   9
+&                  
+CADCONF  47   6   1
+CADCONF  47   6   2
+CADCONF  47   6   3
+CADCONF  47   6   4
+CADCONF  47   6   5
+CADCONF  47   6   6
+&                  
+CADCONF  47   7   1
+CADCONF  47   7   2
+CADCONF  47   7   3
+CADCONF  47   7   7
+CADCONF  47   7   8
+CADCONF  47   7   9
+&                  
+CADCONF  47   8   1
+CADCONF  47   8   2
+CADCONF  47   8   3
+CADCONF  47   8   4
+CADCONF  47   8   6
+CADCONF  47   8   7
+CADCONF  47   8   9
+&                  
+CADCONF  47   9   1
+CADCONF  47   9   2
+CADCONF  47   9   3
+CADCONF  47   9   5
+CADCONF  47   9   6
+CADCONF  47   9   7
+CADCONF  47   9   9
+&                  
+CADCONF  47  10   1
+CADCONF  47  10   2
+CADCONF  47  10   3
+CADCONF  47  10   4
+CADCONF  47  10   6
+CADCONF  47  10   8
+CADCONF  47  10   9
+&                  
+CADCONF  47  11   1
+CADCONF  47  11   2
+CADCONF  47  11   3
+CADCONF  47  11   5
+CADCONF  47  11   6
+CADCONF  47  11   8
+CADCONF  47  11   9
+&                  
+CADCONF  47  12   1
+CADCONF  47  12   2
+CADCONF  47  12   3
+CADCONF  47  12   4
+CADCONF  47  12   5
+CADCONF  47  12   6
+CADCONF  47  12   7
+CADCONF  47  12   9
+&                  
+CADCONF  47  13   1
+CADCONF  47  13   2
+CADCONF  47  13   3
+CADCONF  47  13   4
+CADCONF  47  13   5
+CADCONF  47  13   6
+CADCONF  47  13   8
+CADCONF  47  13   9
+&                  
+CADCONF  47  14   1
+CADCONF  47  14   2
+CADCONF  47  14   3
+CADCONF  47  14   4
+CADCONF  47  14   6
+CADCONF  47  14   7
+CADCONF  47  14   8
+CADCONF  47  14   9
+&                  
+CADCONF  47  15   1
+CADCONF  47  15   2
+CADCONF  47  15   3
+CADCONF  47  15   5
+CADCONF  47  15   6
+CADCONF  47  15   7
+CADCONF  47  15   8
+CADCONF  47  15   9
+&                  
+CADCONF  47  16   1
+CADCONF  47  16   2
+CADCONF  47  16   3
+CADCONF  47  16   4
+CADCONF  47  16   5
+CADCONF  47  16   6
+CADCONF  47  16   7
+CADCONF  47  16   8
+CADCONF  47  16   9
+&                  
+CADCONF  47  17   4
+CADCONF  47  17   6
+&                  
+CADCONF  47  18   5
+CADCONF  47  18   6
+&                  
+CADCONF  47  19   7
+CADCONF  47  19   9
+&                  
+CADCONF  47  20   8
+CADCONF  47  20   9
+&                  
+CADCONF  47  21   4
+CADCONF  47  21   5
+CADCONF  47  21   6
+&                  
+CADCONF  47  22   7
+CADCONF  47  22   8
+CADCONF  47  22   9
+&                  
+CADCONF  47  23   4
+CADCONF  47  23   6
+CADCONF  47  23   7
+CADCONF  47  23   9
+&                  
+CADCONF  47  24   5
+CADCONF  47  24   6
+CADCONF  47  24   7
+CADCONF  47  24   9
+&                  
+CADCONF  47  25   4
+CADCONF  47  25   6
+CADCONF  47  25   8
+CADCONF  47  25   9
+&                  
+CADCONF  47  26   5
+CADCONF  47  26   6
+CADCONF  47  26   8
+CADCONF  47  26   9
+&                  
+CADCONF  47  27   4
+CADCONF  47  27   5
+CADCONF  47  27   6
+CADCONF  47  27   7
+CADCONF  47  27   9
+&                  
+CADCONF  47  28   4
+CADCONF  47  28   5
+CADCONF  47  28   6
+CADCONF  47  28   8
+CADCONF  47  28   9
+&                  
+CADCONF  47  29   4
+CADCONF  47  29   6
+CADCONF  47  29   7
+CADCONF  47  29   8
+CADCONF  47  29   9
+&                  
+CADCONF  47  30   5
+CADCONF  47  30   6
+CADCONF  47  30   7
+CADCONF  47  30   8
+CADCONF  47  30   9
+&                  
+CADCONF  47  31   4
+CADCONF  47  31   5
+CADCONF  47  31   6
+CADCONF  47  31   7
+CADCONF  47  31   8
+CADCONF  47  31   9
+&
+& UTE ARAUCARIA
+CADCONF  48   1   1
+CADCONF  48   1   3
+CADCONF  48   2   2
+CADCONF  48   2   3
+CADCONF  48   3   1
+CADCONF  48   3   2
+CADCONF  48   3   3
+&
+&UTE VIANA
+CADCONF  49   1   1
+CADCONF  49   1   2
+CADCONF  49   1   3
+CADCONF  49   1   4
+&
+CADCONF  49   2   1
+CADCONF  49   2   2
+CADCONF  49   2   3
+CADCONF  49   2   4
+&
+CADCONF  49   3   1
+CADCONF  49   3   2
+CADCONF  49   3   3
+CADCONF  49   3   4
+&
+CADCONF  49   4   1
+CADCONF  49   4   2
+CADCONF  49   4   3
+CADCONF  49   4   4
+&
+&UTE GLOBAL I 
+CADCONF  53   1   2
+CADCONF  53   1   3
+CADCONF  53   2   2
+CADCONF  53   2   4
+CADCONF  53   3   1
+CADCONF  53   3   2
+CADCONF  53   4   3
+CADCONF  53   4   4
+CADCONF  53   5   1
+CADCONF  53   5   3
+CADCONF  53   6   1
+CADCONF  53   6   4
+CADCONF  53   7   2
+CADCONF  53   7   3
+CADCONF  53   7   4
+CADCONF  53   8   1
+CADCONF  53   8   2
+CADCONF  53   8   3
+CADCONF  53   9   1
+CADCONF  53   9   3
+CADCONF  53   9   4
+CADCONF  53  10   1
+CADCONF  53  10   2
+CADCONF  53  10   4
+CADCONF  53  11   1
+CADCONF  53  11   2
+CADCONF  53  11   3
+CADCONF  53  11   4
+&
+&UTE GLOBAL II 
+CADCONF  55   1   1
+CADCONF  55   1   4
+CADCONF  55   2   2
+CADCONF  55   2   4
+CADCONF  55   3   3
+CADCONF  55   3   4
+CADCONF  55   4   1
+CADCONF  55   4   2
+CADCONF  55   5   1
+CADCONF  55   5   3
+CADCONF  55   6   2
+CADCONF  55   6   3
+CADCONF  55   7   1
+CADCONF  55   7   2
+CADCONF  55   7   4
+CADCONF  55   8   1
+CADCONF  55   8   3
+CADCONF  55   8   4
+CADCONF  55   9   1
+CADCONF  55   9   2
+CADCONF  55   9   3
+CADCONF  55  10   2
+CADCONF  55  10   3
+CADCONF  55  10   4
+CADCONF  55  11   1
+CADCONF  55  11   2
+CADCONF  55  11   3
+CADCONF  55  11   4
+&
+&UTE TERMOCEARA 
+CADCONF  58   1   1
+CADCONF  58   1   2
+CADCONF  58   1   3
+CADCONF  58   1   4
+&
+CADCONF  58   2   1
+CADCONF  58   2   2
+CADCONF  58   2   3
+CADCONF  58   2   4
+&
+CADCONF  58   3   1
+CADCONF  58   3   2
+CADCONF  58   3   3
+CADCONF  58   3   4
+&
+CADCONF  58   4   1
+CADCONF  58   4   2
+CADCONF  58   4   3
+CADCONF  58   4   4
+&
+&
+&UTE NORTEFLUMINENSE 
+CADCONF  60   1   1
+CADCONF  60   1   4
+CADCONF  60   2   2
+CADCONF  60   2   4
+CADCONF  60   3   3
+CADCONF  60   3   4
+CADCONF  60   4   1
+CADCONF  60   4   2
+CADCONF  60   4   4
+CADCONF  60   5   2
+CADCONF  60   5   3
+CADCONF  60   5   4
+CADCONF  60   6   1
+CADCONF  60   6   3
+CADCONF  60   6   4
+CADCONF  60   7   1
+CADCONF  60   7   2
+CADCONF  60   7   3
+CADCONF  60   7   4
+&
+& UTE SEROPEDICA
+CADCONF  62   1   1
+CADCONF  62   1   2
+CADCONF  62   1   3
+CADCONF  62   1   4
+CADCONF  62   1   5
+CADCONF  62   1   6
+CADCONF  62   1   7
+CADCONF  62   1   8
+&                 
+CADCONF  62   2   1
+CADCONF  62   2   2
+CADCONF  62   2   3
+CADCONF  62   2   4
+CADCONF  62   2   5
+CADCONF  62   2   6
+CADCONF  62   2   7
+CADCONF  62   2   8
+&                 
+CADCONF  62   3   1
+CADCONF  62   3   2
+CADCONF  62   3   3
+CADCONF  62   3   4
+CADCONF  62   3   5
+CADCONF  62   3   6
+CADCONF  62   3   7
+CADCONF  62   3   8
+&                 
+CADCONF  62   4   1
+CADCONF  62   4   2
+CADCONF  62   4   3
+CADCONF  62   4   4
+CADCONF  62   4   5
+CADCONF  62   4   6
+CADCONF  62   4   7
+CADCONF  62   4   8
+&                 
+CADCONF  62   5   1
+CADCONF  62   5   2
+CADCONF  62   5   3
+CADCONF  62   5   4
+CADCONF  62   5   5
+CADCONF  62   5   6
+CADCONF  62   5   7
+CADCONF  62   5   8
+&                 
+CADCONF  62   6   1
+CADCONF  62   6   2
+CADCONF  62   6   3
+CADCONF  62   6   4
+CADCONF  62   6   5
+CADCONF  62   6   6
+CADCONF  62   6   7
+CADCONF  62   6   8
+&                 
+CADCONF  62   7   1
+CADCONF  62   7   2
+CADCONF  62   7   3
+CADCONF  62   7   4
+CADCONF  62   7   5
+CADCONF  62   7   6
+CADCONF  62   7   7
+CADCONF  62   7   8
+&                 
+CADCONF  62   8   1
+CADCONF  62   8   2
+CADCONF  62   8   3
+CADCONF  62   8   4
+CADCONF  62   8   5
+CADCONF  62   8   6
+CADCONF  62   8   7
+CADCONF  62   8   8
+&
+& UTE IBIRITE
+CADCONF  63   1   1
+CADCONF  63   1   2
+&
+& UTE CANOAS
+CADCONF  64   1   1
+CADCONF  64   1   2
+&
+& UTE TRES LAGOAS
+CADCONF  68   1   1
+CADCONF  68   1   3
+CADCONF  68   2   2
+CADCONF  68   2   3
+CADCONF  68   3   4
+CADCONF  68   3   6
+CADCONF  68   4   5
+CADCONF  68   4   6
+CADCONF  68   5   1
+CADCONF  68   5   2
+CADCONF  68   5   3
+CADCONF  68   6   4
+CADCONF  68   6   5
+CADCONF  68   6   6
+CADCONF  68   7   1
+CADCONF  68   7   3
+CADCONF  68   7   4
+CADCONF  68   7   6
+CADCONF  68   8   2
+CADCONF  68   8   3
+CADCONF  68   8   4
+CADCONF  68   8   6
+CADCONF  68   9   1
+CADCONF  68   9   3
+CADCONF  68   9   5
+CADCONF  68   9   6
+CADCONF  68  10   2
+CADCONF  68  10   3
+CADCONF  68  10   5
+CADCONF  68  10   6
+CADCONF  68  11   1
+CADCONF  68  11   2
+CADCONF  68  11   3
+CADCONF  68  11   4
+CADCONF  68  11   6
+CADCONF  68  12   1
+CADCONF  68  12   2
+CADCONF  68  12   3
+CADCONF  68  12   5
+CADCONF  68  12   6
+CADCONF  68  13   1
+CADCONF  68  13   3
+CADCONF  68  13   4
+CADCONF  68  13   5
+CADCONF  68  13   6
+CADCONF  68  14   2
+CADCONF  68  14   3
+CADCONF  68  14   4
+CADCONF  68  14   5
+CADCONF  68  14   6
+CADCONF  68  15   1
+CADCONF  68  15   2
+CADCONF  68  15   3
+CADCONF  68  15   4
+CADCONF  68  15   5
+CADCONF  68  15   6
+&
+& UTE JESUS SOARES PEREIRA  (VALE DO ACU)                                                                                             
+CADCONF  83   1   1
+CADCONF  83   1   2
+CADCONF  83   2   1
+CADCONF  83   2   2
+&
+& UTE TERMOMACAE
+CADCONF  90   1   1
+CADCONF  90   1   2
+CADCONF  90   1   3
+CADCONF  90   1   4
+CADCONF  90   1   5
+CADCONF  90   1   6
+CADCONF  90   1   7
+CADCONF  90   1   8
+CADCONF  90   1   9
+CADCONF  90   1  10
+CADCONF  90   1  11
+CADCONF  90   1  12
+CADCONF  90   1  13
+CADCONF  90   1  14
+CADCONF  90   1  15
+CADCONF  90   1  16
+CADCONF  90   1  17
+CADCONF  90   1  18
+CADCONF  90   1  19
+CADCONF  90   1  20
+&
+CADCONF  90   2   1
+CADCONF  90   2   2
+CADCONF  90   2   3
+CADCONF  90   2   4
+CADCONF  90   2   5
+CADCONF  90   2   6
+CADCONF  90   2   7
+CADCONF  90   2   8
+CADCONF  90   2   9
+CADCONF  90   2  10
+CADCONF  90   2  11
+CADCONF  90   2  12
+CADCONF  90   2  13
+CADCONF  90   2  14
+CADCONF  90   2  15
+CADCONF  90   2  16
+CADCONF  90   2  17
+CADCONF  90   2  18
+CADCONF  90   2  19
+CADCONF  90   2  20
+&
+CADCONF  90   3   1
+CADCONF  90   3   2
+CADCONF  90   3   3
+CADCONF  90   3   4
+CADCONF  90   3   5
+CADCONF  90   3   6
+CADCONF  90   3   7
+CADCONF  90   3   8
+CADCONF  90   3   9
+CADCONF  90   3  10
+CADCONF  90   3  11
+CADCONF  90   3  12
+CADCONF  90   3  13
+CADCONF  90   3  14
+CADCONF  90   3  15
+CADCONF  90   3  16
+CADCONF  90   3  17
+CADCONF  90   3  18
+CADCONF  90   3  19
+CADCONF  90   3  20
+&
+CADCONF  90   4   1
+CADCONF  90   4   2
+CADCONF  90   4   3
+CADCONF  90   4   4
+CADCONF  90   4   5
+CADCONF  90   4   6
+CADCONF  90   4   7
+CADCONF  90   4   8
+CADCONF  90   4   9
+CADCONF  90   4  10
+CADCONF  90   4  11
+CADCONF  90   4  12
+CADCONF  90   4  13
+CADCONF  90   4  14
+CADCONF  90   4  15
+CADCONF  90   4  16
+CADCONF  90   4  17
+CADCONF  90   4  18
+CADCONF  90   4  19
+CADCONF  90   4  20
+&
+CADCONF  90   5   1
+CADCONF  90   5   2
+CADCONF  90   5   3
+CADCONF  90   5   4
+CADCONF  90   5   5
+CADCONF  90   5   6
+CADCONF  90   5   7
+CADCONF  90   5   8
+CADCONF  90   5   9
+CADCONF  90   5  10
+CADCONF  90   5  11
+CADCONF  90   5  12
+CADCONF  90   5  13
+CADCONF  90   5  14
+CADCONF  90   5  15
+CADCONF  90   5  16
+CADCONF  90   5  17
+CADCONF  90   5  18
+CADCONF  90   5  19
+CADCONF  90   5  20
+&
+CADCONF  90   6   1
+CADCONF  90   6   2
+CADCONF  90   6   3
+CADCONF  90   6   4
+CADCONF  90   6   5
+CADCONF  90   6   6
+CADCONF  90   6   7
+CADCONF  90   6   8
+CADCONF  90   6   9
+CADCONF  90   6  10
+CADCONF  90   6  11
+CADCONF  90   6  12
+CADCONF  90   6  13
+CADCONF  90   6  14
+CADCONF  90   6  15
+CADCONF  90   6  16
+CADCONF  90   6  17
+CADCONF  90   6  18
+CADCONF  90   6  19
+CADCONF  90   6  20
+&
+CADCONF  90   7   1
+CADCONF  90   7   2
+CADCONF  90   7   3
+CADCONF  90   7   4
+CADCONF  90   7   5
+CADCONF  90   7   6
+CADCONF  90   7   7
+CADCONF  90   7   8
+CADCONF  90   7   9
+CADCONF  90   7  10
+CADCONF  90   7  11
+CADCONF  90   7  12
+CADCONF  90   7  13
+CADCONF  90   7  14
+CADCONF  90   7  15
+CADCONF  90   7  16
+CADCONF  90   7  17
+CADCONF  90   7  18
+CADCONF  90   7  19
+CADCONF  90   7  20
+&
+CADCONF  90   8   1
+CADCONF  90   8   2
+CADCONF  90   8   3
+CADCONF  90   8   4
+CADCONF  90   8   5
+CADCONF  90   8   6
+CADCONF  90   8   7
+CADCONF  90   8   8
+CADCONF  90   8   9
+CADCONF  90   8  10
+CADCONF  90   8  11
+CADCONF  90   8  12
+CADCONF  90   8  13
+CADCONF  90   8  14
+CADCONF  90   8  15
+CADCONF  90   8  16
+CADCONF  90   8  17
+CADCONF  90   8  18
+CADCONF  90   8  19
+CADCONF  90   8  20
+&
+CADCONF  90   9   1
+CADCONF  90   9   2
+CADCONF  90   9   3
+CADCONF  90   9   4
+CADCONF  90   9   5
+CADCONF  90   9   6
+CADCONF  90   9   7
+CADCONF  90   9   8
+CADCONF  90   9   9
+CADCONF  90   9  10
+CADCONF  90   9  11
+CADCONF  90   9  12
+CADCONF  90   9  13
+CADCONF  90   9  14
+CADCONF  90   9  15
+CADCONF  90   9  16
+CADCONF  90   9  17
+CADCONF  90   9  18
+CADCONF  90   9  19
+CADCONF  90   9  20
+&
+CADCONF  90  10   1
+CADCONF  90  10   2
+CADCONF  90  10   3
+CADCONF  90  10   4
+CADCONF  90  10   5
+CADCONF  90  10   6
+CADCONF  90  10   7
+CADCONF  90  10   8
+CADCONF  90  10   9
+CADCONF  90  10  10
+CADCONF  90  10  11
+CADCONF  90  10  12
+CADCONF  90  10  13
+CADCONF  90  10  14
+CADCONF  90  10  15
+CADCONF  90  10  16
+CADCONF  90  10  17
+CADCONF  90  10  18
+CADCONF  90  10  19
+CADCONF  90  10  20
+&
+CADCONF  90  11   1
+CADCONF  90  11   2
+CADCONF  90  11   3
+CADCONF  90  11   4
+CADCONF  90  11   5
+CADCONF  90  11   6
+CADCONF  90  11   7
+CADCONF  90  11   8
+CADCONF  90  11   9
+CADCONF  90  11  10
+CADCONF  90  11  11
+CADCONF  90  11  12
+CADCONF  90  11  13
+CADCONF  90  11  14
+CADCONF  90  11  15
+CADCONF  90  11  16
+CADCONF  90  11  17
+CADCONF  90  11  18
+CADCONF  90  11  19
+CADCONF  90  11  20
+&
+CADCONF  90  12   1
+CADCONF  90  12   2
+CADCONF  90  12   3
+CADCONF  90  12   4
+CADCONF  90  12   5
+CADCONF  90  12   6
+CADCONF  90  12   7
+CADCONF  90  12   8
+CADCONF  90  12   9
+CADCONF  90  12  10
+CADCONF  90  12  11
+CADCONF  90  12  12
+CADCONF  90  12  13
+CADCONF  90  12  14
+CADCONF  90  12  15
+CADCONF  90  12  16
+CADCONF  90  12  17
+CADCONF  90  12  18
+CADCONF  90  12  19
+CADCONF  90  12  20
+&
+CADCONF  90  13   1
+CADCONF  90  13   2
+CADCONF  90  13   3
+CADCONF  90  13   4
+CADCONF  90  13   5
+CADCONF  90  13   6
+CADCONF  90  13   7
+CADCONF  90  13   8
+CADCONF  90  13   9
+CADCONF  90  13  10
+CADCONF  90  13  11
+CADCONF  90  13  12
+CADCONF  90  13  13
+CADCONF  90  13  14
+CADCONF  90  13  15
+CADCONF  90  13  16
+CADCONF  90  13  17
+CADCONF  90  13  18
+CADCONF  90  13  19
+CADCONF  90  13  20
+&
+CADCONF  90  14   1
+CADCONF  90  14   2
+CADCONF  90  14   3
+CADCONF  90  14   4
+CADCONF  90  14   5
+CADCONF  90  14   6
+CADCONF  90  14   7
+CADCONF  90  14   8
+CADCONF  90  14   9
+CADCONF  90  14  10
+CADCONF  90  14  11
+CADCONF  90  14  12
+CADCONF  90  14  13
+CADCONF  90  14  14
+CADCONF  90  14  15
+CADCONF  90  14  16
+CADCONF  90  14  17
+CADCONF  90  14  18
+CADCONF  90  14  19
+CADCONF  90  14  20
+&
+CADCONF  90  15   1
+CADCONF  90  15   2
+CADCONF  90  15   3
+CADCONF  90  15   4
+CADCONF  90  15   5
+CADCONF  90  15   6
+CADCONF  90  15   7
+CADCONF  90  15   8
+CADCONF  90  15   9
+CADCONF  90  15  10
+CADCONF  90  15  11
+CADCONF  90  15  12
+CADCONF  90  15  13
+CADCONF  90  15  14
+CADCONF  90  15  15
+CADCONF  90  15  16
+CADCONF  90  15  17
+CADCONF  90  15  18
+CADCONF  90  15  19
+CADCONF  90  15  20
+&
+CADCONF  90  16   1
+CADCONF  90  16   2
+CADCONF  90  16   3
+CADCONF  90  16   4
+CADCONF  90  16   5
+CADCONF  90  16   6
+CADCONF  90  16   7
+CADCONF  90  16   8
+CADCONF  90  16   9
+CADCONF  90  16  10
+CADCONF  90  16  11
+CADCONF  90  16  12
+CADCONF  90  16  13
+CADCONF  90  16  14
+CADCONF  90  16  15
+CADCONF  90  16  16
+CADCONF  90  16  17
+CADCONF  90  16  18
+CADCONF  90  16  19
+CADCONF  90  16  20
+&
+CADCONF  90  17   1
+CADCONF  90  17   2
+CADCONF  90  17   3
+CADCONF  90  17   4
+CADCONF  90  17   5
+CADCONF  90  17   6
+CADCONF  90  17   7
+CADCONF  90  17   8
+CADCONF  90  17   9
+CADCONF  90  17  10
+CADCONF  90  17  11
+CADCONF  90  17  12
+CADCONF  90  17  13
+CADCONF  90  17  14
+CADCONF  90  17  15
+CADCONF  90  17  16
+CADCONF  90  17  17
+CADCONF  90  17  18
+CADCONF  90  17  19
+CADCONF  90  17  20
+&
+CADCONF  90  18   1
+CADCONF  90  18   2
+CADCONF  90  18   3
+CADCONF  90  18   4
+CADCONF  90  18   5
+CADCONF  90  18   6
+CADCONF  90  18   7
+CADCONF  90  18   8
+CADCONF  90  18   9
+CADCONF  90  18  10
+CADCONF  90  18  11
+CADCONF  90  18  12
+CADCONF  90  18  13
+CADCONF  90  18  14
+CADCONF  90  18  15
+CADCONF  90  18  16
+CADCONF  90  18  17
+CADCONF  90  18  18
+CADCONF  90  18  19
+CADCONF  90  18  20
+&
+CADCONF  90  19   1
+CADCONF  90  19   2
+CADCONF  90  19   3
+CADCONF  90  19   4
+CADCONF  90  19   5
+CADCONF  90  19   6
+CADCONF  90  19   7
+CADCONF  90  19   8
+CADCONF  90  19   9
+CADCONF  90  19  10
+CADCONF  90  19  11
+CADCONF  90  19  12
+CADCONF  90  19  13
+CADCONF  90  19  14
+CADCONF  90  19  15
+CADCONF  90  19  16
+CADCONF  90  19  17
+CADCONF  90  19  18
+CADCONF  90  19  19
+CADCONF  90  19  20
+&
+CADCONF  90  20   1
+CADCONF  90  20   2
+CADCONF  90  20   3
+CADCONF  90  20   4
+CADCONF  90  20   5
+CADCONF  90  20   6
+CADCONF  90  20   7
+CADCONF  90  20   8
+CADCONF  90  20   9
+CADCONF  90  20  10
+CADCONF  90  20  11
+CADCONF  90  20  12
+CADCONF  90  20  13
+CADCONF  90  20  14
+CADCONF  90  20  15
+CADCONF  90  20  16
+CADCONF  90  20  17
+CADCONF  90  20  18
+CADCONF  90  20  19
+CADCONF  90  20  20
+&
+&UTE TERMOPE
+CADCONF  96   1   1
+CADCONF  96   1   3
+CADCONF  96   2   2
+CADCONF  96   2   3
+CADCONF  96   3   1
+CADCONF  96   3   2
+CADCONF  96   3   3
+&
+& UTE CUBATAO
+CADCONF  97   1   1
+CADCONF  97   1   2
+CADCONF  97   2   1
+CADCONF  97   3   2
+&
+& UTE NOVA PIRATININGA 
+CADCONF 110   1   1
+CADCONF 110   1   5
+CADCONF 110   2   2
+CADCONF 110   2   5
+CADCONF 110   3   3
+CADCONF 110   3   6
+CADCONF 110   4   4
+CADCONF 110   4   6
+CADCONF 110   5   1
+CADCONF 110   5   5
+CADCONF 110   5   3
+CADCONF 110   5   6
+CADCONF 110   6   1
+CADCONF 110   6   5
+CADCONF 110   6   4
+CADCONF 110   6   6
+CADCONF 110   7   2
+CADCONF 110   7   5
+CADCONF 110   7   3
+CADCONF 110   7   6
+CADCONF 110   8   2
+CADCONF 110   8   5
+CADCONF 110   8   4
+CADCONF 110   8   6
+CADCONF 110   9   1
+CADCONF 110   9   2
+CADCONF 110   9   5
+CADCONF 110  10   3
+CADCONF 110  10   4
+CADCONF 110  10   6
+CADCONF 110  11   1
+CADCONF 110  11   2
+CADCONF 110  11   5
+CADCONF 110  11   4
+CADCONF 110  11   6
+CADCONF 110  12   1
+CADCONF 110  12   2
+CADCONF 110  12   5
+CADCONF 110  12   3
+CADCONF 110  12   6
+CADCONF 110  13   1
+CADCONF 110  13   5
+CADCONF 110  13   3
+CADCONF 110  13   4
+CADCONF 110  13   6
+CADCONF 110  14   2
+CADCONF 110  14   5
+CADCONF 110  14   3
+CADCONF 110  14   4
+CADCONF 110  14   6
+CADCONF 110  15   1
+CADCONF 110  15   2
+CADCONF 110  15   3
+CADCONF 110  15   4
+CADCONF 110  15   5
+CADCONF 110  15   6
+&
+& UTE BAHIA I                                                                                                                    
+CADCONF 112   1   1
+CADCONF 112   1   2
+CADCONF 112   1   3
+CADCONF 112   2   1
+CADCONF 112   2   2
+CADCONF 112   2   3
+CADCONF 112   3   1
+CADCONF 112   3   2
+CADCONF 112   3   3
+&
+& UTE PARNAIBA IV
+CADCONF 116   1   1
+CADCONF 116   1   2
+CADCONF 116   1   3
+&
+&UTE MAUA 3 
+CADCONF 140   1   1
+CADCONF 140   1   2
+CADCONF 140   1   3
+CADCONF 140   2   1
+CADCONF 140   2   3
+CADCONF 140   3   2
+CADCONF 140   3   3
+&
+&UTE PETROLINA
+CADCONF 144   1   1
+CADCONF 144   1   2
+CADCONF 144   1   3
+CADCONF 144   1   4
+CADCONF 144   1   5
+CADCONF 144   1   6
+CADCONF 144   1   7
+CADCONF 144   1   8
+&
+CADCONF 144   2   1
+CADCONF 144   2   2
+CADCONF 144   2   3
+CADCONF 144   2   4
+CADCONF 144   2   5
+CADCONF 144   2   6
+CADCONF 144   2   7
+CADCONF 144   2   8
+&
+CADCONF 144   3   1
+CADCONF 144   3   2
+CADCONF 144   3   3
+CADCONF 144   3   4
+CADCONF 144   3   5
+CADCONF 144   3   6
+CADCONF 144   3   7
+CADCONF 144   3   8
+&
+CADCONF 144   4   1
+CADCONF 144   4   2
+CADCONF 144   4   3
+CADCONF 144   4   4
+CADCONF 144   4   5
+CADCONF 144   4   6
+CADCONF 144   4   7
+CADCONF 144   4   8
+&
+CADCONF 144   5   1
+CADCONF 144   5   2
+CADCONF 144   5   3
+CADCONF 144   5   4
+CADCONF 144   5   5
+CADCONF 144   5   6
+CADCONF 144   5   7
+CADCONF 144   5   8
+&
+CADCONF 144   6   1
+CADCONF 144   6   2
+CADCONF 144   6   3
+CADCONF 144   6   4
+CADCONF 144   6   5
+CADCONF 144   6   6
+CADCONF 144   6   7
+CADCONF 144   6   8
+&
+CADCONF 144   7   1
+CADCONF 144   7   2
+CADCONF 144   7   3
+CADCONF 144   7   4
+CADCONF 144   7   5
+CADCONF 144   7   6
+CADCONF 144   7   7
+CADCONF 144   7   8
+&
+CADCONF 144   8   1
+CADCONF 144   8   2
+CADCONF 144   8   3
+CADCONF 144   8   4
+CADCONF 144   8   5
+CADCONF 144   8   6
+CADCONF 144   8   7
+CADCONF 144   8   8
+&
+&UTE TERMOCABO
+CADCONF 152   1   1
+CADCONF 152   1   2
+CADCONF 152   1   3
+&
+CADCONF 152   2   1
+CADCONF 152   2   2
+CADCONF 152   2   3
+&
+CADCONF 152   3   1
+CADCONF 152   3   2
+CADCONF 152   3   3
+&
+& UTE MURICY
+CADCONF 164   1   1
+CADCONF 164   1   2
+CADCONF 164   1   3
+CADCONF 164   1   4
+CADCONF 164   1   5
+CADCONF 164   1   6
+CADCONF 164   1   7
+CADCONF 164   1   8
+&
+CADCONF 164   2   1
+CADCONF 164   2   2
+CADCONF 164   2   3
+CADCONF 164   2   4
+CADCONF 164   2   5
+CADCONF 164   2   6
+CADCONF 164   2   7
+CADCONF 164   2   8
+&
+CADCONF 164   3   1
+CADCONF 164   3   2
+CADCONF 164   3   3
+CADCONF 164   3   4
+CADCONF 164   3   5
+CADCONF 164   3   6
+CADCONF 164   3   7
+CADCONF 164   3   8
+&
+CADCONF 164   4   1
+CADCONF 164   4   2
+CADCONF 164   4   3
+CADCONF 164   4   4
+CADCONF 164   4   5
+CADCONF 164   4   6
+CADCONF 164   4   7
+CADCONF 164   4   8
+&
+CADCONF 164   5   1
+CADCONF 164   5   2
+CADCONF 164   5   3
+CADCONF 164   5   4
+CADCONF 164   5   5
+CADCONF 164   5   6
+CADCONF 164   5   7
+CADCONF 164   5   8
+&
+CADCONF 164   6   1
+CADCONF 164   6   2
+CADCONF 164   6   3
+CADCONF 164   6   4
+CADCONF 164   6   5
+CADCONF 164   6   6
+CADCONF 164   6   7
+CADCONF 164   6   8
+&
+CADCONF 164   7   1
+CADCONF 164   7   2
+CADCONF 164   7   3
+CADCONF 164   7   4
+CADCONF 164   7   5
+CADCONF 164   7   6
+CADCONF 164   7   7
+CADCONF 164   7   8
+&
+CADCONF 164   8   1
+CADCONF 164   8   2
+CADCONF 164   8   3
+CADCONF 164   8   4
+CADCONF 164   8   5
+CADCONF 164   8   6
+CADCONF 164   8   7
+CADCONF 164   8   8
+&
+&UTE AREMBEPE 
+CADCONF 166   1   1
+CADCONF 166   1   2
+CADCONF 166   1   3
+CADCONF 166   1   4
+&
+CADCONF 166   2   1
+CADCONF 166   2   2
+CADCONF 166   2   3
+CADCONF 166   2   4
+&
+CADCONF 166   3   1
+CADCONF 166   3   2
+CADCONF 166   3   3
+CADCONF 166   3   4
+&
+CADCONF 166   4   1
+CADCONF 166   4   2
+CADCONF 166   4   3
+CADCONF 166   4   4
+&
+&UTE SUAPE II
+CADCONF 170   1   1
+CADCONF 170   1   2
+CADCONF 170   1   3
+CADCONF 170   1   4
+CADCONF 170   1   5
+CADCONF 170   1   6
+CADCONF 170   1   7
+CADCONF 170   1   8
+CADCONF 170   1   9
+CADCONF 170   1  10
+CADCONF 170   1  11
+CADCONF 170   1  12
+CADCONF 170   1  13
+CADCONF 170   1  14
+CADCONF 170   1  15
+CADCONF 170   1  16
+CADCONF 170   1  17
+&
+CADCONF 170   2   1
+CADCONF 170   2   2
+CADCONF 170   2   3
+CADCONF 170   2   4
+CADCONF 170   2   5
+CADCONF 170   2   6
+CADCONF 170   2   7
+CADCONF 170   2   8
+CADCONF 170   2   9
+CADCONF 170   2  10
+CADCONF 170   2  11
+CADCONF 170   2  12
+CADCONF 170   2  13
+CADCONF 170   2  14
+CADCONF 170   2  15
+CADCONF 170   2  16
+CADCONF 170   2  17
+&
+CADCONF 170   3   1
+CADCONF 170   3   2
+CADCONF 170   3   3
+CADCONF 170   3   4
+CADCONF 170   3   5
+CADCONF 170   3   6
+CADCONF 170   3   7
+CADCONF 170   3   8
+CADCONF 170   3   9
+CADCONF 170   3  10
+CADCONF 170   3  11
+CADCONF 170   3  12
+CADCONF 170   3  13
+CADCONF 170   3  14
+CADCONF 170   3  15
+CADCONF 170   3  16
+CADCONF 170   3  17
+&
+CADCONF 170   4   1
+CADCONF 170   4   2
+CADCONF 170   4   3
+CADCONF 170   4   4
+CADCONF 170   4   5
+CADCONF 170   4   6
+CADCONF 170   4   7
+CADCONF 170   4   8
+CADCONF 170   4   9
+CADCONF 170   4  10
+CADCONF 170   4  11
+CADCONF 170   4  12
+CADCONF 170   4  13
+CADCONF 170   4  14
+CADCONF 170   4  15
+CADCONF 170   4  16
+CADCONF 170   4  17
+&
+CADCONF 170   5   1
+CADCONF 170   5   2
+CADCONF 170   5   3
+CADCONF 170   5   4
+CADCONF 170   5   5
+CADCONF 170   5   6
+CADCONF 170   5   7
+CADCONF 170   5   8
+CADCONF 170   5   9
+CADCONF 170   5  10
+CADCONF 170   5  11
+CADCONF 170   5  12
+CADCONF 170   5  13
+CADCONF 170   5  14
+CADCONF 170   5  15
+CADCONF 170   5  16
+CADCONF 170   5  17
+&
+CADCONF 170   6   1
+CADCONF 170   6   2
+CADCONF 170   6   3
+CADCONF 170   6   4
+CADCONF 170   6   5
+CADCONF 170   6   6
+CADCONF 170   6   7
+CADCONF 170   6   8
+CADCONF 170   6   9
+CADCONF 170   6  10
+CADCONF 170   6  11
+CADCONF 170   6  12
+CADCONF 170   6  13
+CADCONF 170   6  14
+CADCONF 170   6  15
+CADCONF 170   6  16
+CADCONF 170   6  17
+&
+CADCONF 170   7   1
+CADCONF 170   7   2
+CADCONF 170   7   3
+CADCONF 170   7   4
+CADCONF 170   7   5
+CADCONF 170   7   6
+CADCONF 170   7   7
+CADCONF 170   7   8
+CADCONF 170   7   9
+CADCONF 170   7  10
+CADCONF 170   7  11
+CADCONF 170   7  12
+CADCONF 170   7  13
+CADCONF 170   7  14
+CADCONF 170   7  15
+CADCONF 170   7  16
+CADCONF 170   7  17
+&
+CADCONF 170   8   1
+CADCONF 170   8   2
+CADCONF 170   8   3
+CADCONF 170   8   4
+CADCONF 170   8   5
+CADCONF 170   8   6
+CADCONF 170   8   7
+CADCONF 170   8   8
+CADCONF 170   8   9
+CADCONF 170   8  10
+CADCONF 170   8  11
+CADCONF 170   8  12
+CADCONF 170   8  13
+CADCONF 170   8  14
+CADCONF 170   8  15
+CADCONF 170   8  16
+CADCONF 170   8  17
+&
+CADCONF 170   9   1
+CADCONF 170   9   2
+CADCONF 170   9   3
+CADCONF 170   9   4
+CADCONF 170   9   5
+CADCONF 170   9   6
+CADCONF 170   9   7
+CADCONF 170   9   8
+CADCONF 170   9   9
+CADCONF 170   9  10
+CADCONF 170   9  11
+CADCONF 170   9  12
+CADCONF 170   9  13
+CADCONF 170   9  14
+CADCONF 170   9  15
+CADCONF 170   9  16
+CADCONF 170   9  17
+&
+CADCONF 170  10   1
+CADCONF 170  10   2
+CADCONF 170  10   3
+CADCONF 170  10   4
+CADCONF 170  10   5
+CADCONF 170  10   6
+CADCONF 170  10   7
+CADCONF 170  10   8
+CADCONF 170  10   9
+CADCONF 170  10  10
+CADCONF 170  10  11
+CADCONF 170  10  12
+CADCONF 170  10  13
+CADCONF 170  10  14
+CADCONF 170  10  15
+CADCONF 170  10  16
+CADCONF 170  10  17
+&
+CADCONF 170  11   1
+CADCONF 170  11   2
+CADCONF 170  11   3
+CADCONF 170  11   4
+CADCONF 170  11   5
+CADCONF 170  11   6
+CADCONF 170  11   7
+CADCONF 170  11   8
+CADCONF 170  11   9
+CADCONF 170  11  10
+CADCONF 170  11  11
+CADCONF 170  11  12
+CADCONF 170  11  13
+CADCONF 170  11  14
+CADCONF 170  11  15
+CADCONF 170  11  16
+CADCONF 170  11  17
+&
+CADCONF 170  12   1
+CADCONF 170  12   2
+CADCONF 170  12   3
+CADCONF 170  12   4
+CADCONF 170  12   5
+CADCONF 170  12   6
+CADCONF 170  12   7
+CADCONF 170  12   8
+CADCONF 170  12   9
+CADCONF 170  12  10
+CADCONF 170  12  11
+CADCONF 170  12  12
+CADCONF 170  12  13
+CADCONF 170  12  14
+CADCONF 170  12  15
+CADCONF 170  12  16
+CADCONF 170  12  17
+&
+CADCONF 170  13   1
+CADCONF 170  13   2
+CADCONF 170  13   3
+CADCONF 170  13   4
+CADCONF 170  13   5
+CADCONF 170  13   6
+CADCONF 170  13   7
+CADCONF 170  13   8
+CADCONF 170  13   9
+CADCONF 170  13  10
+CADCONF 170  13  11
+CADCONF 170  13  12
+CADCONF 170  13  13
+CADCONF 170  13  14
+CADCONF 170  13  15
+CADCONF 170  13  16
+CADCONF 170  13  17
+&
+CADCONF 170  14   1
+CADCONF 170  14   2
+CADCONF 170  14   3
+CADCONF 170  14   4
+CADCONF 170  14   5
+CADCONF 170  14   6
+CADCONF 170  14   7
+CADCONF 170  14   8
+CADCONF 170  14   9
+CADCONF 170  14  10
+CADCONF 170  14  11
+CADCONF 170  14  12
+CADCONF 170  14  13
+CADCONF 170  14  14
+CADCONF 170  14  15
+CADCONF 170  14  16
+CADCONF 170  14  17
+&
+CADCONF 170  15   1
+CADCONF 170  15   2
+CADCONF 170  15   3
+CADCONF 170  15   4
+CADCONF 170  15   5
+CADCONF 170  15   6
+CADCONF 170  15   7
+CADCONF 170  15   8
+CADCONF 170  15   9
+CADCONF 170  15  10
+CADCONF 170  15  11
+CADCONF 170  15  12
+CADCONF 170  15  13
+CADCONF 170  15  14
+CADCONF 170  15  15
+CADCONF 170  15  16
+CADCONF 170  15  17
+&
+CADCONF 170  16   1
+CADCONF 170  16   2
+CADCONF 170  16   3
+CADCONF 170  16   4
+CADCONF 170  16   5
+CADCONF 170  16   6
+CADCONF 170  16   7
+CADCONF 170  16   8
+CADCONF 170  16   9
+CADCONF 170  16  10
+CADCONF 170  16  11
+CADCONF 170  16  12
+CADCONF 170  16  13
+CADCONF 170  16  14
+CADCONF 170  16  15
+CADCONF 170  16  16
+CADCONF 170  16  17
+&
+CADCONF 170  17   1
+CADCONF 170  17   2
+CADCONF 170  17   3
+CADCONF 170  17   4
+CADCONF 170  17   5
+CADCONF 170  17   6
+CADCONF 170  17   7
+CADCONF 170  17   8
+CADCONF 170  17   9
+CADCONF 170  17  10
+CADCONF 170  17  11
+CADCONF 170  17  12
+CADCONF 170  17  13
+CADCONF 170  17  14
+CADCONF 170  17  15
+CADCONF 170  17  16
+CADCONF 170  17  17
+&
+& UTE BAIXADA FLUMINENSE
+CADCONF 211   1   1
+CADCONF 211   1   3
+CADCONF 211   2   2
+CADCONF 211   2   3
+CADCONF 211   3   1
+CADCONF 211   3   2
+CADCONF 211   3   3
+&
+& UTE MARANHAO III
+CADCONF 212   1   1
+CADCONF 212   1   2
+CADCONF 212   1   3
+& 
+& UTE PORTO SERGIPE
+CADCONF 224   1   1
+CADCONF 224   1   2
+CADCONF 224   1   3
+CADCONF 224   1   4
+CADCONF 224   2   2
+CADCONF 224   2   3
+CADCONF 224   2   4
+CADCONF 224   3   1
+CADCONF 224   3   3
+CADCONF 224   3   4
+CADCONF 224   4   1
+CADCONF 224   4   2
+CADCONF 224   4   4
+CADCONF 224   5   1
+CADCONF 224   5   4
+CADCONF 224   6   2
+CADCONF 224   6   4
+CADCONF 224   7   3
+CADCONF 224   7   4
+&
+& UTE ATLANTICO
+CADCONF 383   1   1
+CADCONF 383   2   2
+CADCONF 383   3   3
+CADCONF 383   4   1
+CADCONF 383   4   2
+CADCONF 383   5   1
+CADCONF 383   5   3
+CADCONF 383   6   2
+CADCONF 383   6   3
+CADCONF 383   7   1
+CADCONF 383   7   2
+CADCONF 383   7   3
+&
+&--------------------------------------------------------------------------------------------------------------------------------------------
+& CONFIGURACOES EQUIVALENTES CICLO SIMPLES DEPENDENTE
+&
+&ADMIN  USI EQU UNI
+&XXXXX  XXX XXX XXX
+&
+&UTE VIANA
+CADMIN   49   1   1
+CADMIN   49   2   2
+CADMIN   49   3   3
+CADMIN   49   4   4
+&
+&UTE TERMOCEARA 
+CADMIN   58   1   1
+CADMIN   58   2   2
+CADMIN   58   3   3
+CADMIN   58   4   4
+&
+& UTE SEROPEDICA
+CADMIN   62   1   1
+CADMIN   62   2   2
+CADMIN   62   3   3
+CADMIN   62   4   4
+CADMIN   62   5   5
+CADMIN   62   6   6
+CADMIN   62   7   7
+CADMIN   62   8   8
+&
+& UTE JESUS SOARES PEREIRA  (VALE DO ACU)                                                                                             
+CADMIN   83   1   1
+CADMIN   83   2   2
+&
+& UTE TERMOMACAE
+CADMIN   90   1   1
+CADMIN   90   2   2
+CADMIN   90   3   3
+CADMIN   90   4   4
+CADMIN   90   5   5
+CADMIN   90   6   6
+CADMIN   90   7   7
+CADMIN   90   8   8
+CADMIN   90   9   9
+CADMIN   90  10  10
+CADMIN   90  11  11
+CADMIN   90  12  12
+CADMIN   90  13  13
+CADMIN   90  14  14
+CADMIN   90  15  15
+CADMIN   90  16  16
+CADMIN   90  17  17
+CADMIN   90  18  18
+CADMIN   90  19  19
+CADMIN   90  20  20
+&
+& UTE BAHIA I
+CADMIN  112   1   1
+CADMIN  112   2   2
+CADMIN  112   3   3
+&
+& UTE PETROLINA
+CADMIN  144   1   1
+CADMIN  144   2   2
+CADMIN  144   3   3
+CADMIN  144   4   4
+CADMIN  144   5   5
+CADMIN  144   6   6
+CADMIN  144   7   7
+CADMIN  144   8   8
+&
+& UTE TERMOCABO
+CADMIN  152   1   1
+CADMIN  152   2   2
+CADMIN  152   3   3
+&
+& UTE MURICY       
+CADMIN  164   1   1
+CADMIN  164   2   2
+CADMIN  164   3   3
+CADMIN  164   4   4
+CADMIN  164   5   5
+CADMIN  164   6   6
+CADMIN  164   7   7
+CADMIN  164   8   8
+&
+&UTE AREMBEPE 
+CADMIN  166   1   1
+CADMIN  166   2   2
+CADMIN  166   3   3
+CADMIN  166   4   4
+&
+& UTE SUAPE II
+CADMIN  170   1   1
+CADMIN  170   2   2
+CADMIN  170   3   3
+CADMIN  170   4   4
+CADMIN  170   5   5
+CADMIN  170   6   6
+CADMIN  170   7   7
+CADMIN  170   8   8
+CADMIN  170   9   9
+CADMIN  170  10  10
+CADMIN  170  11  11
+CADMIN  170  12  12
+CADMIN  170  13  13
+CADMIN  170  14  14
+CADMIN  170  15  15
+CADMIN  170  16  16
+CADMIN  170  17  17

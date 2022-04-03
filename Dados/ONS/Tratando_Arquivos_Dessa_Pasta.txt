@@ -1,0 +1,7 @@
+Para poder utilizar os arquivos vindos da ONS precisamos:
+
+1- Abrir eles com Excel
+2- Salvar como 'CSV UTF-8 (Delimitado por vírgulas)(*.csv)'
+3- Após isso o Python ou o Julia conseguem abrir os arquivos 
+
+O pandas lê com "delimiter = ';' "
