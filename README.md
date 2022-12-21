@@ -5,3 +5,5 @@ Neste trabalho abordamos uma formulação para resolver o problema da alocação
 O modelo trabalhado objetiva-se em minimizar a quantidade de água utilizada para atender as restrições do sistema, sendo aqui aplicadas para um horizonte diário com discretização horária. A modelagem deste problema é baseada em uma pesquisa que determina o status (ligado/desligado) e o nível de geração de cada unidade geradora (UG) para atender às restrições da usina e UGs, expandindo sua formulação para uma cascata. 
 
 Foi implementado em Julia, sendo executado os experimentos numéricos com dados reais de operações de duas usinas e comparados com a operação real. O modelo se comportou adequadamente para aquilo que se propôs a fazer, sendo que os resultados se mostraram promissores com relação à economia da água nos reservatórios.
+
+Para mais informações acesse [Artigo](https://github.com/TaliaCS/optimization-hydroelectric/blob/018f6f928859065e00356d7d3aa827f00df5a926/Artigo.pdf).
